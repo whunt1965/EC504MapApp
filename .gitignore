@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Local test Files and caches -- add here to prevent github clutter
+.idea/
+cache/
+test.py
+
