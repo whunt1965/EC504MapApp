@@ -132,4 +132,6 @@ dmypy.json
 .idea/
 cache/
 test.py
+.DS_Store
+
 
