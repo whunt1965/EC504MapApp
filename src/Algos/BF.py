@@ -5,10 +5,8 @@ import queue
 
 def getRoute(node, Nodes, Map):
     ret = []
-    sum = 0
     while not node.isSrc:
         ret.append(node.id)
-        sum+= node.key
         parent = node.Parent
         if parent == -1:
             print("Something went wrong!")
@@ -16,7 +14,7 @@ def getRoute(node, Nodes, Map):
         node = Nodes[Map.get(parent)]
     ret.append(node.id) # Add src node
     ret.reverse()
-    return ret, sum
+    return ret
 
 
 def BF(Nodes, Map, start, end):
@@ -48,11 +46,11 @@ def BF(Nodes, Map, start, end):
                     inQ[v] = True
 
 
-    # Computer Predecessor Array
-    node = Nodes[Map.get(end)]
-    route, sum = getRoute(node, Nodes, Map)
+    node = Nodes[Map.get(end)]  #Get destination node
+    dist = node.key  # Get final distance
+    route = getRoute(node, Nodes, Map)  # Computer Predecessor Array (route)
 
-    return route, sum
+    return route, dist
 
 
 
