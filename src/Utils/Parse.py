@@ -37,8 +37,8 @@ def buildGraph(startlat, startlong, endlat, endlong):
 
     # Get Source and Destination Vertex (and their lat, long)
     src = getSource(G, startlat, startlong)
-    src_y_x = (G.nodes()[src]['y'], G.nodes()[src]['x'])
     dest = getDest(G, endlat, endlong)
+    dest_y_x = (G.nodes()[dest]['y'], G.nodes()[dest]['x'])
 
     Nodes = []  # Create an empty node list
 
@@ -49,16 +49,16 @@ def buildGraph(startlat, startlong, endlat, endlong):
         myNode = Node(node, index)
 
         # Calculate euclidean approximation for distance between source and this node
-        myNode.h = ox.distance.euclidean_dist_vec(src_y_x[0], src_y_x[1], G.nodes()[node]['y'], G.nodes()[node]['x'])
+        myNode.h = ox.distance.euclidean_dist_vec(G.nodes()[node]['y'], G.nodes()[node]['x'], dest_y_x[0], dest_y_x[1])
 
         # Mark source node
         if node == src:
             myNode.isSrc = True
-            myNode.h = 0
 
         # Mark Destination Node
         if node == dest:
             myNode.isDest = True
+            myNode.h = 0
 
         RawEdges = G.adj[node]  # Get the raw edges for the node
         RawEdgeList = list(RawEdges)  # Convert into a list of neighboring nodes
