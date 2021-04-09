@@ -8,5 +8,6 @@ class Node:
         self.key = 100000  # The key of a given node (distance from src)
         self.Parent = -1  # The Parent of a node in a path from src to distance
         self.Direction = [None, None]  # The name and length of the edge used to arrive at a node from its parent
+        self.h = 0  # h(x) distance used for A* - Euclidean approximation
         self.isSrc = False  # Indicates whether a node is the source node
         self.isDest = False  # Indicates whether a node is the destination node

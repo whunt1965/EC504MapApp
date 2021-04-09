@@ -33,11 +33,12 @@ def buildGraph(startlat, startlong, endlat, endlong):
         G = ox.graph_from_place(Boston, network_type="drive")
         ox.save_graphml(G, filePath)
 
-    # Get Source and Destination Vertex
-    src = getSource(G, startlat, startlong)
-    dest = getDest(G, endlat, endlong)
-
     RawNodes = list(G.nodes)  # Extract all nodes from the graph
+
+    # Get Source and Destination Vertex (and their lat, long)
+    src = getSource(G, startlat, startlong)
+    src_y_x = (G.nodes()[src]['y'], G.nodes()[src]['x'])
+    dest = getDest(G, endlat, endlong)
 
     Nodes = []  # Create an empty node list
 
@@ -47,9 +48,13 @@ def buildGraph(startlat, startlong, endlat, endlong):
     for index, node in enumerate(RawNodes):
         myNode = Node(node, index)
 
+        # Calculate euclidean approximation for distance between source and this node
+        myNode.h = ox.distance.euclidean_dist_vec(src_y_x[0], src_y_x[1], G.nodes()[node]['y'], G.nodes()[node]['x'])
+
         # Mark source node
         if node == src:
             myNode.isSrc = True
+            myNode.h = 0
 
         # Mark Destination Node
         if node == dest:

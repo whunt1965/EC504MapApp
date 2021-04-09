@@ -131,7 +131,7 @@ dmypy.json
 # Local test Files and caches -- add here to prevent github clutter
 .idea/
 cache/
-test.py
+test2.py
 .DS_Store
 
 

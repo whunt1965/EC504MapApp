@@ -9,7 +9,8 @@ import networkx as nx
 G, Nodes, Map, src, dest = Parse.buildGraph(42.3505, -71.1054, 42.3467, -71.0972)
 
 
-route1, directions, sum = Dijkstra.Dijkstra_HeapQ(Nodes, Map, src, dest)
+# route1, directions, sum = Dijkstra.Dijkstra_HeapQ(Nodes, Map, src, dest)
+route1, directions, sum = BF.BF(Nodes, Map, src, dest)
 print(sum)
 for direction in directions:
     print(direction)

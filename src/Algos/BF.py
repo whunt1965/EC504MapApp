@@ -12,8 +12,8 @@ def BF(Nodes, Map, start, end):
 
     while not q.empty():
         node = q.get()
-        if node.isDest: # Break when we find the end node
-            break
+        # if node.isDest: # Break when we find the end node
+        #     break
         inQ[node.index] = False
         for edge in node.edges:
             v = Map[edge.end]
