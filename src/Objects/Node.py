@@ -4,8 +4,8 @@ class Node:
         self.id = NodeID
         self.index = index
         self.edges = []
-        self.key = 0
-        self.Parent = None
+        self.key = 100000
+        self.Parent = -1
         self.isSrc = False
         self.isDest = False
 
