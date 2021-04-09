@@ -1,30 +1,10 @@
-# Bellman Ford Algo Here
-
-LARGE = 9999999999
+# BF.py - Bellman Ford Shortest Path
 import queue
-
-def getRoute(node, Nodes, Map):
-    ret = []
-    while not node.isSrc:
-        ret.append(node.id)
-        parent = node.Parent
-        if parent == -1:
-            print("Something went wrong!")
-            return None, None # Something went wrong -- lets figure out a better solution
-        node = Nodes[Map.get(parent)]
-    ret.append(node.id) # Add src node
-    ret.reverse()
-    return ret
-
+from src.Utils import Routes
 
 def BF(Nodes, Map, start, end):
     q = queue.Queue()
     inQ = [False]*len(Nodes)
-
-    for node in Nodes:
-        node.key = LARGE
-        node.Parent = -1
-
     src = Nodes[Map.get(start)]
     inQ[Map.get(start)] = True
     src.key = 0
@@ -41,6 +21,7 @@ def BF(Nodes, Map, start, end):
             if Nodes[v].key > dv:
                 Nodes[v].key = dv
                 Nodes[v].Parent = node.id
+                Nodes[v].Direction = [edge.name, edge.weight]  # Capture edge name and and length
                 if not inQ[v]:
                     q.put(Nodes[v])
                     inQ[v] = True
@@ -48,9 +29,9 @@ def BF(Nodes, Map, start, end):
 
     node = Nodes[Map.get(end)]  #Get destination node
     dist = node.key  # Get final distance
-    route = getRoute(node, Nodes, Map)  # Computer Predecessor Array (route)
+    route, directions = Routes.getRoute(node, Nodes, Map)  # Computer travel route and human readable directions
 
-    return route, dist
+    return route, directions, dist
 
 
 

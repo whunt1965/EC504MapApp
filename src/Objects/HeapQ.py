@@ -1,5 +1,5 @@
 # Heap Q implementation for Dijkstra (similar to our HW with decrease key)
-# Simple Node Class -- we can add accessors/mutators as needed
+
 class HeapQ:
     def __init__(self, maxsize):
         self.maxsize = maxsize
@@ -9,6 +9,7 @@ class HeapQ:
     def insert(self, node):
         if self.size < self.maxsize:
             self.arr[self.size] = node
+            self.arr[self.size].position = self.size
             self.size += 1
             self.__upHeap(self.size - 1)
 
@@ -20,16 +21,16 @@ class HeapQ:
             temp = self.arr[0]
             if self.size != 0:
                 self.arr[0] = self.arr[self.size]
-                self.arr[0].index = 0
+                self.arr[0].position = 0
                 self.__downHeap(0)
-            temp.index = -1  # out of heap
+            temp.position = -1  # out of heap
             return temp
 
 
-    def decreaseKey(self, index, value):
-        self.arr[index].key = value
+    def decreaseKey(self, position, value):
+        self.arr[position].key = value
         #print("decrease key time")
-        self.__upHeap(index)
+        self.__upHeap(position)
 
     def Empty(self):
 
@@ -44,17 +45,18 @@ class HeapQ:
         #print("inside decrease")
         while (new_pos != 0) and temp_node.key < self.arr[parent].key:
             self.arr[new_pos] = self.arr[parent]
-            self.arr[new_pos].index = new_pos
+            self.arr[new_pos].position = new_pos
             new_pos = parent
             parent = int((new_pos - 1) / 2)
             #print("parent")
         self.arr[new_pos] = temp_node
-        self.arr[new_pos].index = new_pos
+        self.arr[new_pos].position = new_pos
 
     def __downHeap(self, root):
         temp = self.arr[root]
         if self.size == 1:
-            print("this is root, no children")
+            pass
+            # print("this is root, no children")
         else:
             child = 2 * root + 1
             while True:
@@ -63,7 +65,7 @@ class HeapQ:
                         child += 1
                 if self.arr[child].key < temp.key:
                     self.arr[root] = self.arr[child]
-                    self.arr[root].index = root
+                    self.arr[root].position = root
                     root = child
                     child = 2 * root + 1
                 else:
@@ -71,4 +73,4 @@ class HeapQ:
                 if child >= self.size:
                     break
             self.arr[root] = temp
-            self.arr[root].index = root
+            self.arr[root].position = root

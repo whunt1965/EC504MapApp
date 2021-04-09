@@ -1,6 +1,6 @@
 
 from src.Utils import Parse
-from src.Algos import BF
+from src.Algos import BF, Dijkstra
 from src.Utils import Output
 import osmnx as ox
 import networkx as nx
@@ -9,8 +9,11 @@ import networkx as nx
 G, Nodes, Map, src, dest = Parse.buildGraph(42.3505, -71.1054, 42.3467, -71.0972)
 
 
-route1, sum = BF.BF(Nodes, Map, src, dest)
+route1, directions, sum = Dijkstra.Dijkstra_HeapQ(Nodes, Map, src, dest)
 print(sum)
+for direction in directions:
+    print(direction)
+
 graph_proj = ox.project_graph(G)
 route = nx.shortest_path(G=graph_proj, source=src, target=dest, weight='length')
 if route != route1:
