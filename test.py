@@ -9,14 +9,21 @@ import networkx as nx
 G, Nodes, Map, src, dest = Parse.buildGraph(42.3505, -71.1054, 42.3467, -71.0972)
 
 print("calculating BF")
-route1, sum1 = BF.BF(Nodes, Map, src, dest)
+route1, directions1, sum1 = BF.BF(Nodes, Map, src, dest)
+
+G, Nodes, Map, src, dest = Parse.buildGraph(42.3505, -71.1054, 42.3467, -71.0972)
 print("calculating Dijkstra simple")
-route2, sum2 = Dijkstra.Dijkstra(Nodes, Map, src, dest)
+route2, directions2, sum2 = Dijkstra.Dijkstra(Nodes, Map, src, dest)
+
+G, Nodes, Map, src, dest = Parse.buildGraph(42.3505, -71.1054, 42.3467, -71.0972)
 print("calculating Dijkstra with HeapQ")
-route3, sum3 = Dijkstra.Dijkstra_HeapQ(Nodes, Map, src, dest)
+route3, directions3, sum3 = Dijkstra.Dijkstra_HeapQ(Nodes, Map, src, dest)
 print("BF sum: " + str(sum1))
+print("BF directions: " + str(directions1))
 print("Dijkstra simple sum:" + str(sum2))
+print("Djikstra Simple directions: " + str(directions2))
 print("Dijkstra Heap sum:" + str(sum3))
+print("Djikstra Heap directions: " + str(directions3))
 graph_proj = ox.project_graph(G)
 correct_route = nx.shortest_path(G=graph_proj, source=src, target=dest, weight='length')
 

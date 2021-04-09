@@ -1,22 +1,9 @@
 # Dijkstra Algo here...
 
 from src.Objects.HeapQ import HeapQ
+from src.Utils import Routes
 
 LARGE = 9999999999
-
-
-def getRoute(node, Nodes, Map):
-    ret = []
-    while not node.isSrc:
-        ret.append(node.id)
-        parent = node.Parent
-        if parent == -1:
-            print("Something went wrong!")
-            return None, None  # Something went wrong -- lets figure out a better solution
-        node = Nodes[Map.get(parent)]
-    ret.append(node.id)  # Add src node
-    ret.reverse()
-    return ret
 
 
 def Dijkstra(Nodes, Map, start, end):
@@ -35,6 +22,7 @@ def Dijkstra(Nodes, Map, start, end):
             if Nodes[v].key > dv:
                 Nodes[v].key = dv
                 Nodes[v].Parent = min_v.id
+                Nodes[v].Direction = [edge.name, edge.weight]  # Capture edge name and and length
 
         min_d = LARGE
         for node in Nodes:
@@ -48,8 +36,8 @@ def Dijkstra(Nodes, Map, start, end):
 
     node = Nodes[Map.get(end)]  # Get destination node
     dist = node.key  # Get final distance
-    route = getRoute(node, Nodes, Map)  # Computer Predecessor Array (route)
-    return route, dist
+    route, directions = Routes.getRoute(node, Nodes, Map)  # Computer Predecessor Array (route)
+    return route, directions, dist
 
 
 def Dijkstra_HeapQ(Nodes, Map, start, end):
@@ -67,9 +55,10 @@ def Dijkstra_HeapQ(Nodes, Map, start, end):
             if Nodes[v].key > dv:
                 Nodes[v].key = dv
                 Nodes[v].Parent = min_v.id
-                queue.decreaseKey(Nodes[v].index, Nodes[v].key)
+                Nodes[v].Direction = [edge.name, edge.weight]  # Capture edge name and and length
+                queue.decreaseKey(Nodes[v].position, Nodes[v].key)
 
     node = Nodes[Map.get(end)]  # Get destination node
     dist = node.key  # Get final distance
-    route = getRoute(node, Nodes, Map)  # Computer Predecessor Array (route)
-    return route, dist
+    route, directions = Routes.getRoute(node, Nodes, Map)  # Computer Predecessor Array (route)
+    return route, directions, dist
