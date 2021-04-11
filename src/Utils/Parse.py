@@ -22,16 +22,23 @@ def getDest(Graph, lat, long):
     return target_node
 
 
-def buildGraph(startlat, startlong, endlat, endlong):
+# @param<customlocation> A city name of the form 'Boston, MA, USA' which includes the start and end locations
+def buildGraph(startlat, startlong, endlat, endlong, customlocation=None):
     Boston = 'Boston, MA, USA'  # Hardcoded location - Boston MA
     filePath = "./maps/Boston.graphml"  # Hardcoded File Path
 
-    # Retrieve Graph from disk if it exists. Otherwise, load from Overpass API and save for later usage
-    if path.exists(filePath):
-        G = ox.load_graphml(filePath)
+    if customlocation:
+        try:
+            G = ox.graph_from_place(customlocation, network_type="drive")
+        except:
+            return None, None, None, None, None
     else:
-        G = ox.graph_from_place(Boston, network_type="drive")
-        ox.save_graphml(G, filePath)
+        # Retrieve Graph from disk if it exists. Otherwise, load from Overpass API and save for later usage
+        if path.exists(filePath):
+            G = ox.load_graphml(filePath)
+        else:
+            G = ox.graph_from_place(Boston, network_type="drive")
+            ox.save_graphml(G, filePath)
 
     RawNodes = list(G.nodes)  # Extract all nodes from the graph
 
@@ -69,7 +76,7 @@ def buildGraph(startlat, startlong, endlat, endlong):
                           weight=RawEdges[edge][0].get("length"))
             myNode.edges.append(myEdge)
         Map[node] = index  # map node id to its index in the list for fast lookup since no pointers
-        Nodes.append(myNode) # map node id to its index in the "Node" list for fast lookup from edges (eg,
-                             # Map[NodeID] = index of this node in our list)
+        Nodes.append(myNode)  # map node id to its index in the "Node" list for fast lookup from edges (eg,
+        # Map[NodeID] = index of this node in our list)
 
     return G, Nodes, Map, src, dest  # Return the graph (for plotting) and the Node list (for the algorithms)
