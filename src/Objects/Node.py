@@ -11,3 +11,4 @@ class Node:
         self.h = 0  # h(x) distance used for A* - Euclidean approximation
         self.isSrc = False  # Indicates whether a node is the source node
         self.isDest = False  # Indicates whether a node is the destination node
+        self.inQueue = False # Indicates whether a node is still in the priority queue

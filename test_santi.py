@@ -2,15 +2,25 @@
 from src.Utils import Parse
 from src.Algos import BF, Dijkstra
 from src.Utils import Output
+from src.Algos import AStar
 import osmnx as ox
 import networkx as nx
 
+# test BU to fenway
+# G, Nodes, Map, src, dest = Parse.buildGraph(42.3505, -71.1054, 42.3467, -71.0972)
 
-G, Nodes, Map, src, dest = Parse.buildGraph(42.3505, -71.1054, 42.3467, -71.0972)
+# test maverick to shawmut
+# G, Nodes, Map, src, dest = Parse.buildGraph(42.3691, -71.0395, 42.2931, -71.0658)
+
+# readville to revere
+G, Nodes, Map, src, dest = Parse.buildGraph(42.236937, -71.140175, 42.397557, -70.999853)
+
+# cambridge to quincy
+# G, Nodes, Map, src, dest = Parse.buildGraph(42.383807, -71.116494, 42.253763, -71.017757)
 
 
 # route1, directions, sum = Dijkstra.Dijkstra_HeapQ(Nodes, Map, src, dest)
-route1, directions, sum = BF.BF(Nodes, Map, src, dest)
+route1, directions, sum = AStar.AStar(Nodes, Map, src, dest)
 print(sum)
 for direction in directions:
     print(direction)
