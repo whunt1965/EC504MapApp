@@ -18,6 +18,9 @@ G, Nodes, Map, src, dest = Parse.buildGraph(42.236937, -71.140175, 42.397557, -7
 # cambridge to quincy
 # G, Nodes, Map, src, dest = Parse.buildGraph(42.383807, -71.116494, 42.253763, -71.017757)
 
+print("calculating BF")
+route1, directions1, sum1 = BF.BF(Nodes, Map, src, dest)
+
 
 # route1, directions, sum = Dijkstra.Dijkstra_HeapQ(Nodes, Map, src, dest)
 route1, directions, sum = AStar.AStar(Nodes, Map, src, dest)
@@ -25,14 +28,32 @@ print(sum)
 for direction in directions:
     print(direction)
 
+G, Nodes, Map, src, dest = Parse.buildGraph(42.3505, -71.1054, 42.3467, -71.0972)
+print("calculating Dijkstra simple")
+route2, directions2, sum2 = Dijkstra.Dijkstra(Nodes, Map, src, dest)
+
+G, Nodes, Map, src, dest = Parse.buildGraph(42.3505, -71.1054, 42.3467, -71.0972)
+print("calculating Dijkstra with HeapQ")
+route3, directions3, sum3 = Dijkstra.Dijkstra_HeapQ(Nodes, Map, src, dest)
+print("BF sum: " + str(sum1))
+print("BF directions: " + str(directions1))
+print("Dijkstra simple sum:" + str(sum2))
+print("Djikstra Simple directions: " + str(directions2))
+print("Dijkstra Heap sum:" + str(sum3))
+print("Djikstra Heap directions: " + str(directions3))
 graph_proj = ox.project_graph(G)
-route = nx.shortest_path(G=graph_proj, source=src, target=dest, weight='length')
-if route != route1:
-    print("Not same")
-    print("my route", route1)
-    print("their route", route)
-else:
-    print("same")
+correct_route = nx.shortest_path(G=graph_proj, source=src, target=dest, weight='length')
+
+routes = [route1, route2, route3]
+for Algo_route in routes:
+    if correct_route != Algo_route:
+        print("Not same")
+        print("my route", Algo_route)
+        print("their route", Algo_route)
+    else:
+        print(str(Algo_route) + "is correct")
+
+
 
 fig, ax = ox.plot_graph_route(graph_proj, route1, show= False, save=True, filepath="map.png")
 
