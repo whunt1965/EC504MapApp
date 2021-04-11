@@ -55,8 +55,10 @@ def buildGraph(startlat, startlong, endlat, endlong, customlocation=None):
     for index, node in enumerate(RawNodes):
         myNode = Node(node, index)
 
+        myNode.yx = (G.nodes()[node]['y'], G.nodes()[node]['x'])
+
         # Calculate euclidean approximation for distance between source and this node
-        myNode.h = ox.distance.euclidean_dist_vec(G.nodes()[node]['y'], G.nodes()[node]['x'], dest_y_x[0], dest_y_x[1])
+        myNode.h = ox.distance.euclidean_dist_vec(myNode.yx[0], myNode.yx[1], dest_y_x[0], dest_y_x[1])
 
         # Mark source node
         if node == src:
