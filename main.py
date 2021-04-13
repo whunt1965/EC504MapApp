@@ -105,11 +105,12 @@ def calculateRoutes(source, destination, city, algoNum):
         route, directions, sum = AStar.AStar(Nodes, Map, src, dest)
 
 
-
+    nc = (0.976, 0.411, 0.411, 1.0)
+    background=(1.0,1.0,1.0,0.0)
     graph_proj = ox.project_graph(G)
-    fig, ax = ox.plot_graph_route(graph_proj, route, show= False, save=True, filepath="map.png")
+    fig, ax = ox.plot_graph_route(graph_proj, route,node_color='w', node_size=5, edge_linewidth=0.5, route_color= nc, bgcolor = background, show= False, save=True, filepath="map.png")
     #fig.savefig('pic.png')
-    Output.giveOutput(source, destination, route, city)
+    Output.giveOutput(source, destination, directions, city)
 
 
 

@@ -36,8 +36,8 @@ def _itemize(directions):
     ret = []
     for i in range(0, len(combo)):
         if combo[i][0] is None and i < len(combo)-1:
-            ret.append(f"Continue onto {combo[i+1][0]} for {combo[i][1]} meters")
+            ret.append(f"Continue onto {combo[i+1][0]} for {round(combo[i][1],2)} meters")
         else:
-            ret.append(f"Travel {combo[i][1]} meters along {combo[i][0]}")
+            ret.append(f"Travel {round(combo[i][1],2)} meters along {combo[i][0]}")
 
     return ret
