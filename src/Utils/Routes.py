@@ -51,6 +51,7 @@ def _itemize(directions):
         else:
             ret.append(f"Travel {combo[i][2]} for {combo[i][1]} meters along {combo[i][0]}")
 
+
     return ret
 
 # Converts degrees to a cardinal direction
