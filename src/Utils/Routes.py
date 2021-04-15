@@ -12,8 +12,10 @@ def getRoute(node, Nodes, Map):
             print("Something went wrong!")
             return None, None  # Something went wrong -- lets figure out a better solution
 
-        # Get ordinal/cardinal direction for edge
-        node.Direction.append(_degreestoDirection(ox.bearing.get_bearing(Nodes[Map.get(parent)].yx, node.yx)))
+        # Get Bearing for each edge
+        bearing = ox.bearing.get_bearing(Nodes[Map.get(parent)].yx, node.yx)
+        node.Direction.append(_degreestoDirection(bearing))  # Store direction as string
+        node.Direction.append(bearing)  # Store raw bearing for determining turns
 
         directions.append(node.Direction)
         node = Nodes[Map.get(parent)]
@@ -40,6 +42,10 @@ def _itemize(directions):
     # Generate Strings from condensed directions
     ret = []
     for i in range(0, len(combo)):
+        # Add turn by turn
+        if i > 0:
+            turn = _getTurn(combo[i-1], combo[i])
+            ret.append(turn + f"onto {combo[i][0]}")
         if combo[i][0] is None and i < len(combo)-1:
             ret.append(f"Continue {combo[i][2]} onto {combo[i+1][0]} for {combo[i][1]} meters")
         else:
@@ -68,6 +74,32 @@ def _degreestoDirection(degrees):
         return "Northwest"
     else:
         return "North"
+
+
+def _getTurn(node1, node2):
+    # Same cardinal/ordinal direction
+    if node1[2] == node2[2]:
+        diff = node1[3] - node2[3]
+        if diff == 0:
+            return "Stay straight "
+        elif diff > 0:
+            return "Slight left "
+        else:
+            return "Slight right "
+
+    else:
+        diff = node1[3] - node2[3]
+        if diff == 0:
+            return "Stay straight "
+        elif diff > 0:
+            return "Turn left "
+        else:
+            return "Turn right "
+
+
+
+
+
 
 
 
