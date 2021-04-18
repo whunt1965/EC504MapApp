@@ -60,6 +60,22 @@ def Run_Algo_on_route(City, route_id, results):
     print("Total Time (seconds) Required to Calculate", stop-start)
     results[City][route_id]["Algo"]["Dijkstra Heap"] = {"route": route4, "direction": directions4, "sum": sum4}
 
+    print("Calculating Shortest path using no-break Djikstra Simple for " + str(City) + " for route " + str(route_id))
+    start = time.time()
+    route5, directions5, sum5 = Dijkstra.DumbDijkstra(Nodes, Map, src, dest)
+    stop = time.time()
+    print("Distance of Shortest Path " + str(sum5))
+    print("Total Time (seconds) Required to Calculate", stop-start)
+    results[City][route_id]["Algo"]["Dijkstra Simple No Break"] = {"route": route5, "direction": directions5, "sum": sum5}
+
+    print("Calculating Shortest path using no-break Djikstra HeapQ for " + str(City) + " for route " + str(route_id))
+    start = time.time()
+    route6, directions6, sum6 = Dijkstra.Dumb_Dijkstra_HeapQ(Nodes, Map, src, dest)
+    stop = time.time()
+    print("Distance of Shortest Path " + str(sum6))
+    print("Total Time (seconds) Required to Calculate", stop-start)
+    results[City][route_id]["Algo"]["Dijkstra Heap No break"] = {"route": route6, "direction": directions6, "sum": sum6}
+
 
 def Check_results(City_list, results):
     for x in range(len(City_list)): # goes through all the cities
