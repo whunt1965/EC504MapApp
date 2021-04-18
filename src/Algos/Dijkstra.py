@@ -16,7 +16,6 @@ def Dijkstra(Nodes, Map, start, end):
 
     while finished < len(Nodes):
         if min_v.id == end:
-            print("end loop early")
             break
         for edge in min_v.edges:  # go through edges of a node with minimum key
             v = Map[edge.end]
@@ -52,7 +51,6 @@ def Dijkstra_HeapQ(Nodes, Map, start, end):
     while queue.size > 0:
         min_v = queue.remove_min()
         if min_v.id == end:
-            print("end loop early")
             break
         for edge in min_v.edges:  # go through edges of a node with minimum key
             v = Map[edge.end]

@@ -34,7 +34,8 @@ def _itemize(directions):
     for i in range(1, len(directions)):
         idx = len(combo) - 1
         # Check for same street and travel distance along street if street is same
-        if directions[i][0] == combo[idx][0] and directions[i][2] == combo[idx][2]:
+        # if directions[i][0] == combo[idx][0] and directions[i][2] == combo[idx][2]:
+        if directions[i][0] == combo[idx][0]:
             combo[idx][1] += directions[i][1]
         else:
             combo.append(directions[i])
@@ -42,16 +43,24 @@ def _itemize(directions):
     # Generate Strings from condensed directions
     ret = []
     for i in range(0, len(combo)):
-        # Add turn by turn
-        if i > 0:
-            turn = _getTurn(combo[i-1], combo[i])
-            ret.append(turn + f"onto {combo[i][0]}")
         if combo[i][0] is None and i < len(combo)-1:
+            # Add turn by turn
+            if i > 0:
+                turn = _getTurn(combo[i - 1], combo[i])
+                ret.append(turn + f"onto {combo[i+1][0]}")
             ret.append(f"Continue {combo[i][2]} onto {combo[i+1][0]} for {combo[i][1]} meters")
         else:
+            # Add turn by turn
+            if i > 0:
+                turn = _getTurn(combo[i - 1], combo[i])
+                ret.append(turn + f"onto {combo[i][0]}")
             ret.append(f"Travel {combo[i][2]} for {combo[i][1]} meters along {combo[i][0]}")
 
-
+    # Debug -- remove for production
+    # sum = 0
+    # for item in combo:
+    #     sum += item[1]
+    # print(sum)
     return ret
 
 # Converts degrees to a cardinal direction

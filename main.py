@@ -104,6 +104,9 @@ def calculateRoutes(source, destination, city, algoNum):
     elif algoNum == 3:
         route, directions, sum = AStar.AStar(Nodes, Map, src, dest)
 
+    # #Debug - remove for production
+    # print(sum)
+
 
     nc = (0.976, 0.411, 0.411, 1.0)
     background=(1.0,1.0,1.0,0.0)
