@@ -1,0 +1,363 @@
+********************* Graph Details ****************************
+Test for Seattle, WA, USA
+Total Number of Nodes 15638
+Total Number of Edges 45690
+
+********************* Algorithm Results ****************************
+Calculate shortest path using default OSM Shortest Path on Seattle for route 1
+Total Time (seconds) Required to Calculate 0.13913631439208984
+Calculating Shortest path using BF for Seattle for route 1
+Distance of Shortest Path 27768.414000000015
+Total Time (seconds) Required to Calculate 3.1750411987304688
+Calculating Shortest path using A* for Seattle for route 1
+Distance of Shortest Path 27768.414000000015
+Total Time (seconds) Required to Calculate 0.2708144187927246
+Calculating Shortest path using Djikstra Simple for Seattle for route 1
+Distance of Shortest Path 27768.414000000015
+Total Time (seconds) Required to Calculate 50.6350679397583
+Calculating Shortest path using Djikstra HeapQ for Seattle for route 1
+Distance of Shortest Path 27768.414000000015
+Total Time (seconds) Required to Calculate 0.25926971435546875
+Calculating Shortest path using no-break Djikstra Simple for Seattle for route 1
+Distance of Shortest Path 27768.414000000015
+Total Time (seconds) Required to Calculate 54.71879720687866
+Calculating Shortest path using no-break Djikstra HeapQ for Seattle for route 1
+Distance of Shortest Path 27768.414000000015
+Total Time (seconds) Required to Calculate 0.2729344367980957
+
+Calculate shortest path using default OSM Shortest Path on Seattle for route 2
+Total Time (seconds) Required to Calculate 0.00499415397644043
+Calculating Shortest path using BF for Seattle for route 2
+Distance of Shortest Path 2408.5190000000002
+Total Time (seconds) Required to Calculate 1.0985734462738037
+Calculating Shortest path using A* for Seattle for route 2
+Distance of Shortest Path 2408.5190000000002
+Total Time (seconds) Required to Calculate 0.05884289741516113
+Calculating Shortest path using Djikstra Simple for Seattle for route 2
+Distance of Shortest Path 2408.5190000000002
+Total Time (seconds) Required to Calculate 3.2101426124572754
+Calculating Shortest path using Djikstra HeapQ for Seattle for route 2
+Distance of Shortest Path 2408.5190000000002
+Total Time (seconds) Required to Calculate 0.06483268737792969
+Calculating Shortest path using no-break Djikstra Simple for Seattle for route 2
+Distance of Shortest Path 2408.5190000000002
+Total Time (seconds) Required to Calculate 54.20241832733154
+Calculating Shortest path using no-break Djikstra HeapQ for Seattle for route 2
+Distance of Shortest Path 2408.5190000000002
+Total Time (seconds) Required to Calculate 0.2723705768585205
+
+Calculate shortest path using default OSM Shortest Path on Seattle for route 3
+Total Time (seconds) Required to Calculate 0.05392599105834961
+Calculating Shortest path using BF for Seattle for route 3
+Distance of Shortest Path 8073.986
+Total Time (seconds) Required to Calculate 0.9997930526733398
+Calculating Shortest path using A* for Seattle for route 3
+Distance of Shortest Path 8073.986
+Total Time (seconds) Required to Calculate 0.16778898239135742
+Calculating Shortest path using Djikstra Simple for Seattle for route 3
+Distance of Shortest Path 8073.986
+Total Time (seconds) Required to Calculate 27.135144472122192
+Calculating Shortest path using Djikstra HeapQ for Seattle for route 3
+Distance of Shortest Path 8073.986
+Total Time (seconds) Required to Calculate 0.17319273948669434
+Calculating Shortest path using no-break Djikstra Simple for Seattle for route 3
+Distance of Shortest Path 8073.986
+Total Time (seconds) Required to Calculate 52.67943358421326
+Calculating Shortest path using no-break Djikstra HeapQ for Seattle for route 3
+Distance of Shortest Path 8073.986
+Total Time (seconds) Required to Calculate 0.2974393367767334
+
+Calculate shortest path using default OSM Shortest Path on Seattle for route 4
+Total Time (seconds) Required to Calculate 0.0501093864440918
+Calculating Shortest path using BF for Seattle for route 4
+Distance of Shortest Path 7375.698999999997
+Total Time (seconds) Required to Calculate 1.8470046520233154
+Calculating Shortest path using A* for Seattle for route 4
+Distance of Shortest Path 7375.698999999997
+Total Time (seconds) Required to Calculate 0.1561594009399414
+Calculating Shortest path using Djikstra Simple for Seattle for route 4
+Distance of Shortest Path 7375.698999999997
+Total Time (seconds) Required to Calculate 26.962438583374023
+Calculating Shortest path using Djikstra HeapQ for Seattle for route 4
+Distance of Shortest Path 7375.698999999997
+Total Time (seconds) Required to Calculate 0.16355061531066895
+Calculating Shortest path using no-break Djikstra Simple for Seattle for route 4
+Distance of Shortest Path 7375.698999999997
+Total Time (seconds) Required to Calculate 49.83815336227417
+Calculating Shortest path using no-break Djikstra HeapQ for Seattle for route 4
+Distance of Shortest Path 7375.698999999997
+Total Time (seconds) Required to Calculate 0.29140639305114746
+
+********************* Validation Against Built-In Shortest Path ****************************
+city name: Seattle
+route: 1
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+route: 2
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+route: 3
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+route: 4
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+
+********************* Graph Details ****************************
+Test for Boston, MA, USA
+Total Number of Nodes 10987
+Total Number of Edges 25322
+
+********************* Algorithm Results ****************************
+Calculate shortest path using default OSM Shortest Path on Boston for route 1
+Total Time (seconds) Required to Calculate 0.0
+Calculating Shortest path using BF for Boston for route 1
+Distance of Shortest Path 1018.8330000000001
+Total Time (seconds) Required to Calculate 0.8690633773803711
+Calculating Shortest path using A* for Boston for route 1
+Distance of Shortest Path 1018.8330000000001
+Total Time (seconds) Required to Calculate 0.03291893005371094
+Calculating Shortest path using Djikstra Simple for Boston for route 1
+Distance of Shortest Path 1018.8330000000001
+Total Time (seconds) Required to Calculate 0.11631059646606445
+Calculating Shortest path using Djikstra HeapQ for Boston for route 1
+Distance of Shortest Path 1018.8330000000001
+Total Time (seconds) Required to Calculate 0.030581951141357422
+Calculating Shortest path using no-break Djikstra Simple for Boston for route 1
+Distance of Shortest Path 1018.8330000000001
+Total Time (seconds) Required to Calculate 22.016054391860962
+Calculating Shortest path using no-break Djikstra HeapQ for Boston for route 1
+Distance of Shortest Path 1018.8330000000001
+Total Time (seconds) Required to Calculate 0.1965031623840332
+
+Calculate shortest path using default OSM Shortest Path on Boston for route 2
+Total Time (seconds) Required to Calculate 0.46057677268981934
+Calculating Shortest path using BF for Boston for route 2
+Distance of Shortest Path 11992.382
+Total Time (seconds) Required to Calculate 1.7502434253692627
+Calculating Shortest path using A* for Boston for route 2
+Distance of Shortest Path 11992.382
+Total Time (seconds) Required to Calculate 0.22974205017089844
+Calculating Shortest path using Djikstra Simple for Boston for route 2
+Distance of Shortest Path 11992.382
+Total Time (seconds) Required to Calculate 14.431466102600098
+Calculating Shortest path using Djikstra HeapQ for Boston for route 2
+Distance of Shortest Path 11992.382
+Total Time (seconds) Required to Calculate 0.15029025077819824
+Calculating Shortest path using no-break Djikstra Simple for Boston for route 2
+Distance of Shortest Path 11992.382
+Total Time (seconds) Required to Calculate 20.308470487594604
+Calculating Shortest path using no-break Djikstra HeapQ for Boston for route 2
+Distance of Shortest Path 11992.382
+Total Time (seconds) Required to Calculate 0.1831374168395996
+
+Calculate shortest path using default OSM Shortest Path on Boston for route 3
+Total Time (seconds) Required to Calculate 0.09750843048095703
+Calculating Shortest path using BF for Boston for route 3
+Distance of Shortest Path 23738.955000000013
+Total Time (seconds) Required to Calculate 1.3400747776031494
+Calculating Shortest path using A* for Boston for route 3
+Distance of Shortest Path 23738.955000000013
+Total Time (seconds) Required to Calculate 0.2084968090057373
+Calculating Shortest path using Djikstra Simple for Boston for route 3
+Distance of Shortest Path 23738.955000000013
+Total Time (seconds) Required to Calculate 24.363475799560547
+Calculating Shortest path using Djikstra HeapQ for Boston for route 3
+Distance of Shortest Path 23738.955000000013
+Total Time (seconds) Required to Calculate 0.2024848461151123
+Calculating Shortest path using no-break Djikstra Simple for Boston for route 3
+Distance of Shortest Path 23738.955000000013
+Total Time (seconds) Required to Calculate 20.726019620895386
+Calculating Shortest path using no-break Djikstra HeapQ for Boston for route 3
+Distance of Shortest Path 23738.955000000013
+Total Time (seconds) Required to Calculate 0.1811058521270752
+
+Calculate shortest path using default OSM Shortest Path on Boston for route 4
+Total Time (seconds) Required to Calculate 0.055454254150390625
+Calculating Shortest path using BF for Boston for route 4
+Distance of Shortest Path 14323.005000000001
+Total Time (seconds) Required to Calculate 1.0292315483093262
+Calculating Shortest path using A* for Boston for route 4
+Distance of Shortest Path 14323.005000000001
+Total Time (seconds) Required to Calculate 0.1679518222808838
+Calculating Shortest path using Djikstra Simple for Boston for route 4
+Distance of Shortest Path 14323.005000000001
+Total Time (seconds) Required to Calculate 17.281062602996826
+Calculating Shortest path using Djikstra HeapQ for Boston for route 4
+Distance of Shortest Path 14323.005000000001
+Total Time (seconds) Required to Calculate 0.1570594310760498
+Calculating Shortest path using no-break Djikstra Simple for Boston for route 4
+Distance of Shortest Path 14323.005000000001
+Total Time (seconds) Required to Calculate 20.847832679748535
+Calculating Shortest path using no-break Djikstra HeapQ for Boston for route 4
+Distance of Shortest Path 14323.005000000001
+Total Time (seconds) Required to Calculate 0.18212389945983887
+
+********************* Validation Against Built-In Shortest Path ****************************
+city name: Boston
+route: 1
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+route: 2
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+route: 3
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+route: 4
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+
+********************* Graph Details ****************************
+Test for Nashville, TN, USA
+Total Number of Nodes 21850
+Total Number of Edges 54557
+
+********************* Algorithm Results ****************************
+Calculate shortest path using default OSM Shortest Path on Nashville for route 1
+Total Time (seconds) Required to Calculate 0.6354084014892578
+Calculating Shortest path using BF for Nashville for route 1
+Distance of Shortest Path 49094.80600000001
+Total Time (seconds) Required to Calculate 2.101712703704834
+Calculating Shortest path using A* for Nashville for route 1
+Distance of Shortest Path 49094.80600000001
+Total Time (seconds) Required to Calculate 0.47467803955078125
+Calculating Shortest path using Djikstra Simple for Nashville for route 1
+Distance of Shortest Path 49094.80600000001
+Total Time (seconds) Required to Calculate 142.42962265014648
+Calculating Shortest path using Djikstra HeapQ for Nashville for route 1
+Distance of Shortest Path 49094.80600000001
+Total Time (seconds) Required to Calculate 0.40363287925720215
+Calculating Shortest path using no-break Djikstra Simple for Nashville for route 1
+Distance of Shortest Path 49094.80600000001
+Total Time (seconds) Required to Calculate 144.8529236316681
+Calculating Shortest path using no-break Djikstra HeapQ for Nashville for route 1
+Distance of Shortest Path 49094.80600000001
+Total Time (seconds) Required to Calculate 0.3940999507904053
+
+Calculate shortest path using default OSM Shortest Path on Nashville for route 2
+Total Time (seconds) Required to Calculate 0.1475081443786621
+Calculating Shortest path using BF for Nashville for route 2
+Distance of Shortest Path 40780.81099999996
+Total Time (seconds) Required to Calculate 7.978590726852417
+Calculating Shortest path using A* for Nashville for route 2
+Distance of Shortest Path 40780.81099999996
+Total Time (seconds) Required to Calculate 0.3818976879119873
+Calculating Shortest path using Djikstra Simple for Nashville for route 2
+Distance of Shortest Path 40780.81099999996
+Total Time (seconds) Required to Calculate 110.28230547904968
+Calculating Shortest path using Djikstra HeapQ for Nashville for route 2
+Distance of Shortest Path 40780.81099999996
+Total Time (seconds) Required to Calculate 0.3403811454772949
+Calculating Shortest path using no-break Djikstra Simple for Nashville for route 2
+Distance of Shortest Path 40780.81099999996
+Total Time (seconds) Required to Calculate 139.60042905807495
+Calculating Shortest path using no-break Djikstra HeapQ for Nashville for route 2
+Distance of Shortest Path 40780.81099999996
+Total Time (seconds) Required to Calculate 0.4021263122558594
+
+Calculate shortest path using default OSM Shortest Path on Nashville for route 3
+Total Time (seconds) Required to Calculate 0.0397186279296875
+Calculating Shortest path using BF for Nashville for route 3
+Distance of Shortest Path 13032.411999999997
+Total Time (seconds) Required to Calculate 4.481357097625732
+Calculating Shortest path using A* for Nashville for route 3
+Distance of Shortest Path 13032.411999999997
+Total Time (seconds) Required to Calculate 0.15395903587341309
+Calculating Shortest path using Djikstra Simple for Nashville for route 3
+Distance of Shortest Path 13032.411999999997
+Total Time (seconds) Required to Calculate 29.878112316131592
+Calculating Shortest path using Djikstra HeapQ for Nashville for route 3
+Distance of Shortest Path 13032.411999999997
+Total Time (seconds) Required to Calculate 0.15000677108764648
+Calculating Shortest path using no-break Djikstra Simple for Nashville for route 3
+Distance of Shortest Path 13032.411999999997
+Total Time (seconds) Required to Calculate 110.96045565605164
+Calculating Shortest path using no-break Djikstra HeapQ for Nashville for route 3
+Distance of Shortest Path 13032.411999999997
+Total Time (seconds) Required to Calculate 0.4056694507598877
+
+Calculate shortest path using default OSM Shortest Path on Nashville for route 4
+Total Time (seconds) Required to Calculate 0.07426977157592773
+Calculating Shortest path using BF for Nashville for route 4
+Distance of Shortest Path 27557.285999999996
+Total Time (seconds) Required to Calculate 2.128926992416382
+Calculating Shortest path using A* for Nashville for route 4
+Distance of Shortest Path 27557.285999999996
+Total Time (seconds) Required to Calculate 0.2806541919708252
+Calculating Shortest path using Djikstra Simple for Nashville for route 4
+Distance of Shortest Path 27557.285999999996
+Total Time (seconds) Required to Calculate 61.28823661804199
+Calculating Shortest path using Djikstra HeapQ for Nashville for route 4
+Distance of Shortest Path 27557.285999999996
+Total Time (seconds) Required to Calculate 0.2806282043457031
+Calculating Shortest path using no-break Djikstra Simple for Nashville for route 4
+Distance of Shortest Path 27557.285999999996
+Total Time (seconds) Required to Calculate 113.80260372161865
+Calculating Shortest path using no-break Djikstra HeapQ for Nashville for route 4
+Distance of Shortest Path 27557.285999999996
+Total Time (seconds) Required to Calculate 0.48630452156066895
+
+********************* Validation Against Built-In Shortest Path ****************************
+city name: Nashville
+route: 1
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+route: 2
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+route: 3
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+route: 4
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+

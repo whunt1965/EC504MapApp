@@ -9,6 +9,8 @@ from src.Algos import BF, Dijkstra, AStar
 import osmnx as ox
 import networkx as nx
 import time
+import csv
+from os import path
 
 
 # Runs the Algo for each test case in a City
@@ -19,6 +21,8 @@ def Run_Algo_on_route(City, route_id, results):
     Nodes = results[City][route_id]["info"]["Nodes"]
     Map = results[City][route_id]["info"]["Map"]
     results[City][route_id]["Algo"] = {}
+
+    csv_timing_list = []
 
     print("Calculate shortest path using default OSM Shortest Path on " + str(City) + " for route " + str(route_id))
     graph_proj = ox.project_graph(G)
@@ -32,6 +36,7 @@ def Run_Algo_on_route(City, route_id, results):
     start = time.time()
     route1, directions1, sum1 = BF.BF(Nodes, Map, src, dest)
     stop = time.time()
+    csv_timing_list.append(stop-start)
     print("Distance of Shortest Path " + str(sum1))
     print("Total Time (seconds) Required to Calculate", stop-start)
     results[City][route_id]["Algo"]["BF"] = {"route": route1, "direction": directions1, "sum": sum1}
@@ -40,6 +45,7 @@ def Run_Algo_on_route(City, route_id, results):
     start = time.time()
     route2, directions2, sum2 = AStar.AStar(Nodes, Map, src, dest)
     stop = time.time()
+    csv_timing_list.append(stop - start)
     print("Distance of Shortest Path " + str(sum2))
     print("Total Time (seconds) Required to Calculate", stop-start)
     results[City][route_id]["Algo"]["Astar"] = {"route": route2, "direction": directions2, "sum": sum2}
@@ -48,6 +54,7 @@ def Run_Algo_on_route(City, route_id, results):
     start = time.time()
     route3, directions3, sum3 = Dijkstra.Dijkstra(Nodes, Map, src, dest)
     stop = time.time()
+    csv_timing_list.append(stop - start)
     print("Distance of Shortest Path " + str(sum3))
     print("Total Time (seconds) Required to Calculate", stop-start)
     results[City][route_id]["Algo"]["Dijkstra Simple"] = {"route": route3, "direction": directions3, "sum": sum3}
@@ -56,6 +63,7 @@ def Run_Algo_on_route(City, route_id, results):
     start = time.time()
     route4, directions4, sum4 = Dijkstra.Dijkstra_HeapQ(Nodes, Map, src, dest)
     stop = time.time()
+    csv_timing_list.append(stop - start)
     print("Distance of Shortest Path " + str(sum4))
     print("Total Time (seconds) Required to Calculate", stop-start)
     results[City][route_id]["Algo"]["Dijkstra Heap"] = {"route": route4, "direction": directions4, "sum": sum4}
@@ -64,6 +72,7 @@ def Run_Algo_on_route(City, route_id, results):
     start = time.time()
     route5, directions5, sum5 = Dijkstra.DumbDijkstra(Nodes, Map, src, dest)
     stop = time.time()
+    csv_timing_list.append(stop - start)
     print("Distance of Shortest Path " + str(sum5))
     print("Total Time (seconds) Required to Calculate", stop-start)
     results[City][route_id]["Algo"]["Dijkstra Simple No Break"] = {"route": route5, "direction": directions5, "sum": sum5}
@@ -72,9 +81,26 @@ def Run_Algo_on_route(City, route_id, results):
     start = time.time()
     route6, directions6, sum6 = Dijkstra.Dumb_Dijkstra_HeapQ(Nodes, Map, src, dest)
     stop = time.time()
+    csv_timing_list.append(stop - start)
     print("Distance of Shortest Path " + str(sum6))
     print("Total Time (seconds) Required to Calculate", stop-start)
     results[City][route_id]["Algo"]["Dijkstra Heap No break"] = {"route": route6, "direction": directions6, "sum": sum6}
+
+    filename = "mediumCities.csv"
+    header = ["City","# Edges","BF","A*", "Dij Simple","Dij Heap", "NB Dij Simple","NB Dij Heap"]
+    data_row = [City, len(G.nodes())]
+    for timing in csv_timing_list:
+        data_row.append(timing)
+    if not path.exists("./" + filename):
+        with open(filename, 'w', newline='') as csvfile:
+            writer = csv.writer(csvfile)
+            writer.writerow(header)
+            writer.writerow(data_row)
+    else:
+        with open(filename, 'a', newline='') as csvfile:
+            writer = csv.writer(csvfile)
+            writer.writerow(data_row)
+
 
 
 def Check_results(City_list, results):

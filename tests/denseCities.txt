@@ -1,0 +1,15 @@
+startlat, startlong, endlat, endlong, location='Boston, MA, USA' | Description
+40.524720, -74.238649, 40.750144, -73.705440, 'New York, NY, USA' | Staten Island to Glen Oaks
+40.577345, -73.965786, 40.908174, -73.904183, 'New York, NY, USA' | Coney Island to West Bronx
+40.792695, -73.975811, 40.643440, -73.784404, 'New York, NY, USA' | Upper West Side to JFK Airport
+40.705523, -74.012034, 40.888913, -73.835425, 'New York, NY, USA' | Financial District to Eastchester
+
+35.675777, 139.783635, 35.751794, 139.590483, 'Tokyo, Tokyo, Japan' | Shinkawa to Higashioizumi
+35.555959, 139.736052, 35.806386, 139.814330, 'Tokyo, Tokyo, Japan' | Nishikojiya to Hanahata
+35.699395, 139.913893, 35.692704, 139.595290, 'Tokyo, Tokyo, Japan' | Edogawa City to Kugayama
+35.638034, 139.599410, 35.680434, 139.840422, 'Tokyo, Tokyo, Japan' | Seijo to Higashisuna
+
+-23.780220, -46.716190, -23.422830, -46.589847, 'Sao Paulo, Sao Paulo, Brazil' | Parelheiros to Tremembe
+-23.576476, -46.776615, -23.500935, -46.375614, 'Sao Paulo, Sao Paulo, Brazil' | Rio Pequeno to Itaim Paulista
+-23.629329, -46.464878, -23.440470, -46.743656, 'Sao Paulo, Sao Paulo, Brazil' | Sao Rafael to Jaragua
+-23.526120, -46.743656, -23.565147, -46.393467, 'Sao Paulo, Sao Paulo, Brazil' | Vila Leopoldina to Guaianases

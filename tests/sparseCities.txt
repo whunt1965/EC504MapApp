@@ -1,0 +1,26 @@
+startlat, startlong, endlat, endlong, location='Boston, MA, USA' | Description
+34.839400, -117.118254, 34.872908, -116.941310, 'Barstow, CA, USA' | Travel within Barstow
+34.859332, -117.135225, 34.900584, -116.984801, 'Barstow, CA, USA' | Travel within Barstow
+34.865720, -117.025414, 34.912462, -117.016863, 'Barstow, CA, USA' | Travel within Barstow
+34.879108, -116.989739, 34.887613, -117.067372, 'Barstow, CA, USA' | Travel within Barstow
+
+24.548847, -81.808354, 24.566556, -81.752220, 'Key West, FL, USA' | Travel within Key West
+24.549337, -81.782893, 24.571023, -81.759769, 'Key West, FL, USA' | Travel within Key West
+24.564104, -81.768455, 24.559799, -81.803981, 'Key West, FL, USA' | Travel within Key West
+24.563450, -81.796612, 24.555767, -81.776064, 'Key West, FL, USA' | Travel within Key West
+
+43.932595, -69.819257, 43.891222, -69.818332, 'Bath, ME, USA' | Travel within Bath
+43.901587, -69.816278, 43.916612, -69.832510, 'Bath, ME, USA' | Travel within Bath
+43.927194, -69.812579, 43.906829, -69.826955, 'Bath, ME, USA' | Travel within Bath
+43.974582, -69.834968, 43.872335, -69.828647, 'Bath, ME, USA' | Travel within Bath
+
+
+39.429621, -119.729749, 39.653489, -119.888838, 'Reno, NV, USA' | Travel within Reno
+39.513532, -119.748243, 39.526017, -119.953748, 'Reno, NV, USA' | Travel within Reno
+39.503693, -119.847807, 39.563460, -119.787480, 'Reno, NV, USA' | Travel within Reno
+39.499152, -119.754129, 39.541904, -119.840450, 'Reno, NV, USA' | Travel within Reno
+
+44.427876, -72.716742, 44.491012, -72.631137, 'Stowe, VT, USA' | Travel within Stowe
+44.433220, -72.683700, 44.521845, -72.755511, 'Stowe, VT, USA' | Travel within Stowe
+44.469344, -72.802185, 44.465558, -72.684435, 'Stowe, VT, USA' | Travel within Stowe
+44.415837, -72.676139, 44.514078, -72.692889, 'Stowe, VT, USA' | Travel within Stowe
