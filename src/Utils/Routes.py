@@ -48,13 +48,13 @@ def _itemize(directions):
             if i > 0:
                 turn = _getTurn(combo[i - 1], combo[i])
                 ret.append(turn + f"onto {combo[i+1][0]}")
-            ret.append(f"Continue {combo[i][2]} onto {combo[i+1][0]} for {combo[i][1]} meters")
+            ret.append(f"Continue {combo[i][2]} onto {combo[i+1][0]} for {int(combo[i][1])} meters")
         else:
             # Add turn by turn
             if i > 0:
                 turn = _getTurn(combo[i - 1], combo[i])
                 ret.append(turn + f"onto {combo[i][0]}")
-            ret.append(f"Travel {combo[i][2]} for {combo[i][1]} meters along {combo[i][0]}")
+            ret.append(f"Travel {combo[i][2]} for {int(combo[i][1])} meters along {combo[i][0]}")
 
     # Debug -- remove for production
     # sum = 0
