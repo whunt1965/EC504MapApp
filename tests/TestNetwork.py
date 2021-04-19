@@ -94,6 +94,8 @@ def Run_Algo_on_route(City, route_id, results, total_edges, csv_filename="output
     start = time.time()
     correct_route = nx.shortest_path(G=graph_proj, source=src, target=dest, weight='length')
     stop = time.time()
+    correct_distance = nx.shortest_path_length(G=graph_proj, source=src, target=dest, weight='length')
+    print("Distance of Shortest Path " + str(correct_distance))
     print("Total Time (seconds) Required to Calculate", stop - start)
     results[City]["paths"][route_id]["correct"] = correct_route
 

@@ -20,17 +20,19 @@ import networkx as nx
 #
 
 # BU to Fenway
-G, Nodes, Map, src, dest = Parse.buildGraph(42.349398, -71.106673, 42.345568, -71.104514)
 
-print("calculating BF")
-route1, directions1, sum1 = BF.BF(Nodes, Map, src, dest)
+#import NYC
+# G, Nodes, Map, src, dest = Parse.buildGraph(40.524720, -74.238649, 40.750144, -73.705440)
+#
+# print("calculating BF")
+# route1, directions1, sum1 = BF.BF(Nodes, Map, src, dest)
 
 
 # # route1, directions, sum = Dijkstra.Dijkstra_HeapQ(Nodes, Map, src, dest)
 # route1, directions, sum = AStar.AStar(Nodes, Map, src, dest)
-print(sum1)
-for direction in directions1:
-    print(direction)
+# print(sum1)
+# for direction in directions1:
+#     print(direction)
 #
 # G, Nodes, Map, src, dest = Parse.buildGraph(42.3505, -71.1054, 42.3467, -71.0972)
 # print("calculating Dijkstra simple")
@@ -59,13 +61,13 @@ for direction in directions1:
 
 
 
-fig, ax = ox.plot_graph_route(G, route1, show= False, save=True, filepath="map.png")
-
-
-
-fig.savefig('pic.png')
-
-Output.giveOutput()
+# fig, ax = ox.plot_graph_route(G, route1, show= False, save=True, filepath="map.png", node_size=0)
+#
+#
+#
+# fig.savefig('pic.png')
+#
+# Output.giveOutput()
 
 
 
@@ -88,3 +90,22 @@ Output.giveOutput()
 #     print(k[edge][0].get("length"))
 # print(G.adj[61340762][k[0]][0].get("name"))
 # ox.plot_graph(G)
+
+
+G, Nodes, Map, src, dest = Parse.buildGraph(29.570586, -95.087936, 29.866332, -95.557894, 'Houston, TX, USA')
+
+
+route = nx.shortest_path(G=G, source=src, target=dest, weight='length', method="bellman-ford")
+
+# sum = nx.shortest_path_length(G=G, source=src, target=dest, weight='length')
+#
+# print(sum)
+
+# print("calculating BF")
+# route1, directions1, sum1 = BF.BF(Nodes, Map, src, dest)
+#
+# print(sum1)
+
+#routes = [route, route1]
+
+fig, ax = ox.plot_graph_route(G, route, route_linewidth=3, node_size=0)
