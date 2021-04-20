@@ -61,3 +61,13 @@ conda create --name=<env> --file=requirements.txt
 ### To Run
 ```Linux
 ./runApp.sh
+```
+
+### Sample Inputs
+```
+Boston, MA, USA
+Src Lat:42.383807
+Src Long: -71.116494, 
+Dst Lat: 42.253763
+Dst Long: -71.017757
+```
