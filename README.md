@@ -24,7 +24,7 @@ python main.py
 ```
 Boston, MA, USA
 Src Lat:42.383807
-Src Long: -71.116494, 
+Src Long: -71.116494 
 Dst Lat: 42.253763
 Dst Long: -71.017757
 ```
@@ -66,7 +66,7 @@ To test if X-forwarding works correctly:
 ```
 Boston, MA, USA
 Src Lat:42.383807
-Src Long: -71.116494, 
+Src Long: -71.116494 
 Dst Lat: 42.253763
 Dst Long: -71.017757
 ```
