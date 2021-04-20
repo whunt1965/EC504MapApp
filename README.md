@@ -1,6 +1,6 @@
 # EC504MapApp
-EC504 Map Application
-Wiley Hunt Santiago Gomez Apollo Lo Ken Krebs
+### EC504 Map Application
+### Wiley Hunt Santiago Gomez Apollo Lo Ken Krebs
 [Link to Our Report](https://docs.google.com/document/d/1nbyvtMloAYKxHEIoC8Xq5ailhlhB-m4Sr7QJrhC_lKc/edit)
 ---
 
