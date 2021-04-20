@@ -34,7 +34,7 @@ def giveOutput(src, dst, directions, city, distance):
     header = "<h2>"
     endheader = "</h2>"
     locationInfo = header + "Source: " + str(src) + endheader + header + "Destination: " + str(dst) + endheader
-    totalDistance = header + "Total Distance: " + str(distance) + endheader
+    totalDistance = header + "Total Distance: " + str(round(distance, 1)) + endheader
     f.write(locationInfo)
     f.write(totalDistance)
     
