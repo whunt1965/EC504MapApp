@@ -4,7 +4,7 @@ import os
 # Create new HTML file, insert link to saved plot, 
 # add other relevant information
 
-def giveOutput(src, dst, directions, city):
+def giveOutput(src, dst, directions, city, distance):
     f = open('output.html','w')
     message = """
     <!DOCTYPE html>
@@ -12,7 +12,7 @@ def giveOutput(src, dst, directions, city):
     <head>
     <title>Destination</title>
     <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="assets/style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -20,7 +20,7 @@ def giveOutput(src, dst, directions, city):
     </head>
     <body id="grad1">
     <hr class="new3">
-    <img src="dest.png"  width="600"  class="center"/>
+    <img src="assets/dest.png"  width="600"  class="center"/>
     <hr class="new3">
 
     <div class="container">
@@ -34,8 +34,9 @@ def giveOutput(src, dst, directions, city):
     header = "<h2>"
     endheader = "</h2>"
     locationInfo = header + "Source: " + str(src) + endheader + header + "Destination: " + str(dst) + endheader
-    
+    totalDistance = header + "Total Distance: " + str(distance) + endheader
     f.write(locationInfo)
+    f.write(totalDistance)
     
     image="""
     </div>
@@ -51,7 +52,7 @@ def giveOutput(src, dst, directions, city):
     image2="""
     </div>
     </div>
-    <img src="map2.jpeg" class="center2"/>
+    <img src="assets/map2.jpeg" class="center2"/>
     <hr class="new3">
      <div class="container">
      <div class="container2">
