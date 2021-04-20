@@ -72,7 +72,7 @@ def algoSelection():
                 algo = int(algo)
                 break
             except:
-                print("Please enter an integer 1-4")
+                print("Please enter an integer 1-3")
 
         if algo >= 1 and algo <= 3:
             return algo
