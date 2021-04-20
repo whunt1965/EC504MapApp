@@ -104,7 +104,7 @@ def calculateRoutes(source, destination, city, algoNum):
         stop = time.time()
     elif algoNum == 2:
         start = time.time()
-        route, directions, sum = Dijkstra.Dijkstra(Nodes, Map, src, dest)
+        route, directions, sum = Dijkstra.Dijkstra_HeapQ(Nodes, Map, src, dest)
         stop = time.time()
     elif algoNum == 3:
         start = time.time()
