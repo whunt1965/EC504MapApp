@@ -13,11 +13,11 @@ Destination is a Map application to get directions between longitude and latitud
 Make sure to download and [install](https://docs.conda.io/en/latest/miniconda.html) miniconda if it is not already installed. 
 
 ### Setup Miniconda Environment
-`conda create --name=<env> --file=requirements.txt`
+`./buildEnv.sh`
 
 ### To Run
 ```Linux
-conda activate <env>
+conda activate ox
 python main.py
 ```
 ### Sample Inputs
