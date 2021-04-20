@@ -22,24 +22,17 @@ algorithms = {
 
 
 def inputCity():
-    for key, value in citySelection.items():
-            print(key, ': ', value)
-    
+   
     while True:
         while True:
             try:
-                city = input ("Select a city to navigate: ")
-                city = int(city)
+                city = input ("Select a city to navigate\n ie: Boston, MA, USA\n ")
+                city = str(city)
                 break
             except:
                 print("Please enter an integer 1-4")
 
-
-        if city >= 1 and city <= 4:
-            return city
-        else:
-            print("Please selection an option between 1 and 4")
-            continue
+        return city
 
 def srcDest():
 
@@ -94,9 +87,13 @@ def calculateRoutes(source, destination, city, algoNum):
     #42.383807, -71.116494, 42.253763, -71.017757
     #G, Nodes, Map, src, dest = Parse.buildGraph(source[0], source[1], destination[0], destination[1])
     
-    G, Nodes, Map, src, dest = Parse.buildGraph(42.383807, -71.116494, 42.253763, -71.017757)
+    G, Nodes, Map, src, dest = Parse.buildGraph(source[0], source[1], destination[0], destination[1], city)
 
-    print("Calculating route...")
+    if G is None:
+        print("Unable to build graph from inputs")
+        exit(0)
+
+    print("Calculating Routes...")
     if algoNum == 1:
         route, directions, sum = BF.BF(Nodes, Map, src, dest)
     elif algoNum == 2:
@@ -130,7 +127,7 @@ if __name__ == '__main__':
         src = str(points[0])
         dst = str(points[1])
     
-        print("Travelling from " + src + " to " + dst + " in " + citySelection[city] + " using " + algorithms[algoNum])
+        print("Travelling from " + src + " to " + dst + " in " + city + " using " + algorithms[algoNum])
         correct = input ("Correct?  [Y/N]: ")
         print("----------------")
     
