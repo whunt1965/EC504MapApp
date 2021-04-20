@@ -10,7 +10,7 @@ Destination is a Map application to get directions between longitude and latitud
 
 
 ## To Run Locally
-Make sure to download and install[https://docs.conda.io/en/latest/miniconda.html] miniconda if it is not already installed. 
+Make sure to download and [install][(https://docs.conda.io/en/latest/miniconda.html) miniconda if it is not already installed. 
 
 ### Setup Miniconda Environment
 `conda create --name=<env> --file=requirements.txt`
