@@ -23,7 +23,7 @@ def getDest(Graph, lat, long):
 
 
 # @param<location> A city name of the form 'Boston, MA, USA' which includes the start and end locations
-def buildGraph(startlat, startlong, endlat, endlong, location='Boston, MA, USA'):
+def buildGraph(startlat, startlong, endlat, endlong, location):
     City =location.split(",")
     filePath = "./maps/" + str(City[0]) + ".graphml"
 

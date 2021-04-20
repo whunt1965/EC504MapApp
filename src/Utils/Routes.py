@@ -28,7 +28,11 @@ def getRoute(node, Nodes, Map):
 
 # Generates an array of human readable strings to print step-by-step directions from src to destination
 def _itemize(directions):
-    combo = [directions[0]]  # Combines directions on same street
+    try:
+        combo = [directions[0]]  # Combines directions on same street
+    except:
+        print("Unable to get directions")
+        exit(0)
 
     # Combine directions along same street
     for i in range(1, len(directions)):
