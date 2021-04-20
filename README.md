@@ -55,7 +55,7 @@ To test if X-forwarding works correctly:
 ### Setup Miniconda Environment
 ```Linux
 module load miniconda
-conda create --name=<env> --file=requirements.txt
+conda create --name=ox --file=requirements.txt
 ```
 
 ### To Run
