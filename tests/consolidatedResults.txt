@@ -1,0 +1,1060 @@
+
+********************* Graph Details ****************************
+Test for Key West, FL, USA
+Total Number of Nodes 786
+Total Number of Edges 2258
+
+
+Calculate shortest path using default OSM Shortest Path on Key West, FL, USA for route 0
+Distance of Shortest Path 6623.497
+Total Time (seconds) Required to Calculate 0.004986763000488281
+Calculating Shortest path using BF for Key West, FL, USA for route 0
+Distance of Shortest Path 6623.497
+Total Time (seconds) Required to Calculate 0.017156362533569336
+Calculating Shortest path using A* for Key West, FL, USA for route 0
+Distance of Shortest Path 6623.497
+Total Time (seconds) Required to Calculate 0.009058237075805664
+Calculating Shortest path using Djikstra Simple for Key West, FL, USA for route 0
+Distance of Shortest Path 6623.497
+Total Time (seconds) Required to Calculate 0.08275985717773438
+Calculating Shortest path using Djikstra HeapQ for Key West, FL, USA for route 0
+Distance of Shortest Path 6623.497
+Total Time (seconds) Required to Calculate 0.007978200912475586
+Calculating Shortest path using no-break Djikstra Simple for Key West, FL, USA for route 0
+Distance of Shortest Path 6623.497
+Total Time (seconds) Required to Calculate 0.08400464057922363
+Calculating Shortest path using no-break Djikstra HeapQ for Key West, FL, USA for route 0
+Distance of Shortest Path 6623.497
+Total Time (seconds) Required to Calculate 0.008031368255615234
+
+Calculate shortest path using default OSM Shortest Path on Key West, FL, USA for route 1
+Distance of Shortest Path 4266.67
+Total Time (seconds) Required to Calculate 0.003939390182495117
+Calculating Shortest path using BF for Key West, FL, USA for route 1
+Distance of Shortest Path 4387.378999999998
+Total Time (seconds) Required to Calculate 0.01196742057800293
+Calculating Shortest path using A* for Key West, FL, USA for route 1
+Distance of Shortest Path 4387.378999999998
+Total Time (seconds) Required to Calculate 0.008028030395507812
+Calculating Shortest path using Djikstra Simple for Key West, FL, USA for route 1
+Distance of Shortest Path 4387.378999999998
+Total Time (seconds) Required to Calculate 0.06990242004394531
+Calculating Shortest path using Djikstra HeapQ for Key West, FL, USA for route 1
+Distance of Shortest Path 4387.378999999998
+Total Time (seconds) Required to Calculate 0.007930994033813477
+Calculating Shortest path using no-break Djikstra Simple for Key West, FL, USA for route 1
+Distance of Shortest Path 4387.378999999998
+Total Time (seconds) Required to Calculate 0.0731496810913086
+Calculating Shortest path using no-break Djikstra HeapQ for Key West, FL, USA for route 1
+Distance of Shortest Path 4387.378999999998
+Total Time (seconds) Required to Calculate 0.007983207702636719
+
+Calculate shortest path using default OSM Shortest Path on Key West, FL, USA for route 2
+Distance of Shortest Path 4737.180999999998
+Total Time (seconds) Required to Calculate 0.004021644592285156
+Calculating Shortest path using BF for Key West, FL, USA for route 2
+Distance of Shortest Path 4737.180999999998
+Total Time (seconds) Required to Calculate 0.01510310173034668
+Calculating Shortest path using A* for Key West, FL, USA for route 2
+Distance of Shortest Path 4737.180999999998
+Total Time (seconds) Required to Calculate 0.007991790771484375
+Calculating Shortest path using Djikstra Simple for Key West, FL, USA for route 2
+Distance of Shortest Path 4737.180999999998
+Total Time (seconds) Required to Calculate 0.06944131851196289
+Calculating Shortest path using Djikstra HeapQ for Key West, FL, USA for route 2
+Distance of Shortest Path 4737.180999999998
+Total Time (seconds) Required to Calculate 0.008975982666015625
+Calculating Shortest path using no-break Djikstra Simple for Key West, FL, USA for route 2
+Distance of Shortest Path 4737.180999999998
+Total Time (seconds) Required to Calculate 0.08091902732849121
+Calculating Shortest path using no-break Djikstra HeapQ for Key West, FL, USA for route 2
+Distance of Shortest Path 4737.180999999998
+Total Time (seconds) Required to Calculate 0.007979154586791992
+
+Calculate shortest path using default OSM Shortest Path on Key West, FL, USA for route 3
+Distance of Shortest Path 2384.446
+Total Time (seconds) Required to Calculate 0.0029985904693603516
+Calculating Shortest path using BF for Key West, FL, USA for route 3
+Distance of Shortest Path 2384.446
+Total Time (seconds) Required to Calculate 0.013958930969238281
+Calculating Shortest path using A* for Key West, FL, USA for route 3
+Distance of Shortest Path 2384.446
+Total Time (seconds) Required to Calculate 0.006830692291259766
+Calculating Shortest path using Djikstra Simple for Key West, FL, USA for route 3
+Distance of Shortest Path 2384.446
+Total Time (seconds) Required to Calculate 0.0520625114440918
+Calculating Shortest path using Djikstra HeapQ for Key West, FL, USA for route 3
+Distance of Shortest Path 2384.446
+Total Time (seconds) Required to Calculate 0.0056116580963134766
+Calculating Shortest path using no-break Djikstra Simple for Key West, FL, USA for route 3
+Distance of Shortest Path 2384.446
+Total Time (seconds) Required to Calculate 0.07233762741088867
+Calculating Shortest path using no-break Djikstra HeapQ for Key West, FL, USA for route 3
+Distance of Shortest Path 2384.446
+Total Time (seconds) Required to Calculate 0.00790262222290039
+
+********************* Graph Details ****************************
+Test for Bath, ME, USA
+Total Number of Nodes 529
+Total Number of Edges 1387
+
+
+Calculate shortest path using default OSM Shortest Path on Bath, ME, USA for route 0
+Distance of Shortest Path 4957.892000000001
+Total Time (seconds) Required to Calculate 0.0029909610748291016
+Calculating Shortest path using BF for Bath, ME, USA for route 0
+Distance of Shortest Path 4957.892000000001
+Total Time (seconds) Required to Calculate 0.008029699325561523
+Calculating Shortest path using A* for Bath, ME, USA for route 0
+Distance of Shortest Path 4957.892000000001
+Total Time (seconds) Required to Calculate 0.0049855709075927734
+Calculating Shortest path using Djikstra Simple for Bath, ME, USA for route 0
+Distance of Shortest Path 4957.892000000001
+Total Time (seconds) Required to Calculate 0.030098438262939453
+Calculating Shortest path using Djikstra HeapQ for Bath, ME, USA for route 0
+Distance of Shortest Path 4957.892000000001
+Total Time (seconds) Required to Calculate 0.005037069320678711
+Calculating Shortest path using no-break Djikstra Simple for Bath, ME, USA for route 0
+Distance of Shortest Path 4957.892000000001
+Total Time (seconds) Required to Calculate 0.03299355506896973
+Calculating Shortest path using no-break Djikstra HeapQ for Bath, ME, USA for route 0
+Distance of Shortest Path 4957.892000000001
+Total Time (seconds) Required to Calculate 0.0049860477447509766
+
+Calculate shortest path using default OSM Shortest Path on Bath, ME, USA for route 1
+Distance of Shortest Path 2937.803
+Total Time (seconds) Required to Calculate 0.0020008087158203125
+Calculating Shortest path using BF for Bath, ME, USA for route 1
+Distance of Shortest Path 2937.803
+Total Time (seconds) Required to Calculate 0.008980035781860352
+Calculating Shortest path using A* for Bath, ME, USA for route 1
+Distance of Shortest Path 2937.803
+Total Time (seconds) Required to Calculate 0.005984306335449219
+Calculating Shortest path using Djikstra Simple for Bath, ME, USA for route 1
+Distance of Shortest Path 2937.803
+Total Time (seconds) Required to Calculate 0.03293800354003906
+Calculating Shortest path using Djikstra HeapQ for Bath, ME, USA for route 1
+Distance of Shortest Path 2937.803
+Total Time (seconds) Required to Calculate 0.00501704216003418
+Calculating Shortest path using no-break Djikstra Simple for Bath, ME, USA for route 1
+Distance of Shortest Path 2937.803
+Total Time (seconds) Required to Calculate 0.03200817108154297
+Calculating Shortest path using no-break Djikstra HeapQ for Bath, ME, USA for route 1
+Distance of Shortest Path 2937.803
+Total Time (seconds) Required to Calculate 0.005031108856201172
+
+Calculate shortest path using default OSM Shortest Path on Bath, ME, USA for route 2
+Distance of Shortest Path 2962.096
+Total Time (seconds) Required to Calculate 0.0019936561584472656
+Calculating Shortest path using BF for Bath, ME, USA for route 2
+Distance of Shortest Path 2962.096
+Total Time (seconds) Required to Calculate 0.011024713516235352
+Calculating Shortest path using A* for Bath, ME, USA for route 2
+Distance of Shortest Path 2962.096
+Total Time (seconds) Required to Calculate 0.004984140396118164
+Calculating Shortest path using Djikstra Simple for Bath, ME, USA for route 2
+Distance of Shortest Path 2962.096
+Total Time (seconds) Required to Calculate 0.027939796447753906
+Calculating Shortest path using Djikstra HeapQ for Bath, ME, USA for route 2
+Distance of Shortest Path 2962.096
+Total Time (seconds) Required to Calculate 0.005031108856201172
+Calculating Shortest path using no-break Djikstra Simple for Bath, ME, USA for route 2
+Distance of Shortest Path 2962.096
+Total Time (seconds) Required to Calculate 0.03218531608581543
+Calculating Shortest path using no-break Djikstra HeapQ for Bath, ME, USA for route 2
+Distance of Shortest Path 2962.096
+Total Time (seconds) Required to Calculate 0.005024433135986328
+
+Calculate shortest path using default OSM Shortest Path on Bath, ME, USA for route 3
+Distance of Shortest Path 11899.395000000002
+Total Time (seconds) Required to Calculate 0.002991914749145508
+Calculating Shortest path using BF for Bath, ME, USA for route 3
+Distance of Shortest Path 11899.395000000002
+Total Time (seconds) Required to Calculate 0.008980989456176758
+Calculating Shortest path using A* for Bath, ME, USA for route 3
+Distance of Shortest Path 11899.395000000002
+Total Time (seconds) Required to Calculate 0.004986286163330078
+Calculating Shortest path using Djikstra Simple for Bath, ME, USA for route 3
+Distance of Shortest Path 11899.395000000002
+Total Time (seconds) Required to Calculate 0.033919572830200195
+Calculating Shortest path using Djikstra HeapQ for Bath, ME, USA for route 3
+Distance of Shortest Path 11899.395000000002
+Total Time (seconds) Required to Calculate 0.005494356155395508
+Calculating Shortest path using no-break Djikstra Simple for Bath, ME, USA for route 3
+Distance of Shortest Path 11899.395000000002
+Total Time (seconds) Required to Calculate 0.030971527099609375
+Calculating Shortest path using no-break Djikstra HeapQ for Bath, ME, USA for route 3
+Distance of Shortest Path 11899.395000000002
+Total Time (seconds) Required to Calculate 0.006028413772583008
+
+********************* Graph Details ****************************
+Test for Stowe, VT, USA
+Total Number of Nodes 512
+Total Number of Edges 1132
+
+
+Calculate shortest path using default OSM Shortest Path on Stowe, VT, USA for route 0
+Distance of Shortest Path 10730.153999999997
+Total Time (seconds) Required to Calculate 0.0019948482513427734
+Calculating Shortest path using BF for Stowe, VT, USA for route 0
+Distance of Shortest Path 10730.153999999997
+Total Time (seconds) Required to Calculate 0.003988981246948242
+Calculating Shortest path using A* for Stowe, VT, USA for route 0
+Distance of Shortest Path 10730.153999999997
+Total Time (seconds) Required to Calculate 0.005984067916870117
+Calculating Shortest path using Djikstra Simple for Stowe, VT, USA for route 0
+Distance of Shortest Path 10730.153999999997
+Total Time (seconds) Required to Calculate 0.029920101165771484
+Calculating Shortest path using Djikstra HeapQ for Stowe, VT, USA for route 0
+Distance of Shortest Path 10730.153999999997
+Total Time (seconds) Required to Calculate 0.00498652458190918
+Calculating Shortest path using no-break Djikstra Simple for Stowe, VT, USA for route 0
+Distance of Shortest Path 10730.153999999997
+Total Time (seconds) Required to Calculate 0.03065037727355957
+Calculating Shortest path using no-break Djikstra HeapQ for Stowe, VT, USA for route 0
+Distance of Shortest Path 10730.153999999997
+Total Time (seconds) Required to Calculate 0.005028247833251953
+
+Calculate shortest path using default OSM Shortest Path on Stowe, VT, USA for route 1
+Distance of Shortest Path 14456.087
+Total Time (seconds) Required to Calculate 0.001990079879760742
+Calculating Shortest path using BF for Stowe, VT, USA for route 1
+Distance of Shortest Path 14456.087
+Total Time (seconds) Required to Calculate 0.007692098617553711
+Calculating Shortest path using A* for Stowe, VT, USA for route 1
+Distance of Shortest Path 14456.087
+Total Time (seconds) Required to Calculate 0.005084991455078125
+Calculating Shortest path using Djikstra Simple for Stowe, VT, USA for route 1
+Distance of Shortest Path 14456.087
+Total Time (seconds) Required to Calculate 0.03004169464111328
+Calculating Shortest path using Djikstra HeapQ for Stowe, VT, USA for route 1
+Distance of Shortest Path 14456.087
+Total Time (seconds) Required to Calculate 0.004975318908691406
+Calculating Shortest path using no-break Djikstra Simple for Stowe, VT, USA for route 1
+Distance of Shortest Path 14456.087
+Total Time (seconds) Required to Calculate 0.03106069564819336
+Calculating Shortest path using no-break Djikstra HeapQ for Stowe, VT, USA for route 1
+Distance of Shortest Path 14456.087
+Total Time (seconds) Required to Calculate 0.005048274993896484
+
+Calculate shortest path using default OSM Shortest Path on Stowe, VT, USA for route 2
+Distance of Shortest Path 12372.670000000002
+Total Time (seconds) Required to Calculate 0.001008749008178711
+Calculating Shortest path using BF for Stowe, VT, USA for route 2
+Distance of Shortest Path 12372.670000000002
+Total Time (seconds) Required to Calculate 0.004987239837646484
+Calculating Shortest path using A* for Stowe, VT, USA for route 2
+Distance of Shortest Path 12372.670000000002
+Total Time (seconds) Required to Calculate 0.0029909610748291016
+Calculating Shortest path using Djikstra Simple for Stowe, VT, USA for route 2
+Distance of Shortest Path 12372.670000000002
+Total Time (seconds) Required to Calculate 0.016007184982299805
+Calculating Shortest path using Djikstra HeapQ for Stowe, VT, USA for route 2
+Distance of Shortest Path 12372.670000000002
+Total Time (seconds) Required to Calculate 0.002994060516357422
+Calculating Shortest path using no-break Djikstra Simple for Stowe, VT, USA for route 2
+Distance of Shortest Path 12372.670000000002
+Total Time (seconds) Required to Calculate 0.030909061431884766
+Calculating Shortest path using no-break Djikstra HeapQ for Stowe, VT, USA for route 2
+Distance of Shortest Path 12372.670000000002
+Total Time (seconds) Required to Calculate 0.004946231842041016
+
+Calculate shortest path using default OSM Shortest Path on Stowe, VT, USA for route 3
+Distance of Shortest Path 12129.053
+Total Time (seconds) Required to Calculate 0.001994609832763672
+Calculating Shortest path using BF for Stowe, VT, USA for route 3
+Distance of Shortest Path 12129.053
+Total Time (seconds) Required to Calculate 0.007603645324707031
+Calculating Shortest path using A* for Stowe, VT, USA for route 3
+Distance of Shortest Path 12129.053
+Total Time (seconds) Required to Calculate 0.003988742828369141
+Calculating Shortest path using Djikstra Simple for Stowe, VT, USA for route 3
+Distance of Shortest Path 12129.053
+Total Time (seconds) Required to Calculate 0.027080774307250977
+Calculating Shortest path using Djikstra HeapQ for Stowe, VT, USA for route 3
+Distance of Shortest Path 12129.053
+Total Time (seconds) Required to Calculate 0.003980398178100586
+Calculating Shortest path using no-break Djikstra Simple for Stowe, VT, USA for route 3
+Distance of Shortest Path 12129.053
+Total Time (seconds) Required to Calculate 0.03006911277770996
+Calculating Shortest path using no-break Djikstra HeapQ for Stowe, VT, USA for route 3
+Distance of Shortest Path 12129.053
+Total Time (seconds) Required to Calculate 0.0040471553802490234
+
+*********** Validation Against Built-In Shortest Path *********************
+
+ Validating: Key West, FL, USA
+route: 0
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+route: 1
+Not same BF
+Algo Distance: 4387.378999999998
+Correct Distance: 4266.67
+Algo route [99076271, 99076273, 99089295, 99076246, 99076248, 99076252, 99077747, 99077750, 99082944, 99091885, 99091884, 99091880, 922140746, 922140627, 922140682, 99078114, 979969760, 2182396391, 979998330, 979998334, 99088378, 99081859, 3441147992, 3440116609, 99080649, 3440116535, 4867178702, 4867178703, 3436039241, 3432572740, 3432022677, 3432014041, 3431979735, 3431979720, 3431979726]
+correct route [99076271, 99076273, 99089295, 99076246, 99076248, 99076252, 99077747, 99077750, 99082944, 99091885, 99091884, 99091880, 922140746, 922140627, 922140682, 922140617, 922081764, 3436309877, 922081621, 922081631, 3436309429, 922081633, 3436301593, 922081648, 922081692, 922081694, 3436039467, 3432572737, 3432572738, 3432572621, 3432507479, 3432572620, 3432572597, 3432572739, 3432022919, 3432022676, 3432014039, 3432013852, 3432013856, 3431979733, 3431979726]
+Not same Astar
+Algo Distance: 4387.378999999998
+Correct Distance: 4266.67
+Algo route [99076271, 99076273, 99089295, 99076246, 99076248, 99076252, 99077747, 99077750, 99082944, 99091885, 99091884, 99091880, 922140746, 922140627, 922140682, 99078114, 979969760, 2182396391, 979998330, 979998334, 99088378, 99081859, 3441147992, 3440116609, 99080649, 3440116535, 4867178702, 4867178703, 3436039241, 3432572740, 3432022677, 3432014041, 3431979735, 3431979720, 3431979726]
+correct route [99076271, 99076273, 99089295, 99076246, 99076248, 99076252, 99077747, 99077750, 99082944, 99091885, 99091884, 99091880, 922140746, 922140627, 922140682, 922140617, 922081764, 3436309877, 922081621, 922081631, 3436309429, 922081633, 3436301593, 922081648, 922081692, 922081694, 3436039467, 3432572737, 3432572738, 3432572621, 3432507479, 3432572620, 3432572597, 3432572739, 3432022919, 3432022676, 3432014039, 3432013852, 3432013856, 3431979733, 3431979726]
+Not same Dijkstra Simple
+Algo Distance: 4387.378999999998
+Correct Distance: 4266.67
+Algo route [99076271, 99076273, 99089295, 99076246, 99076248, 99076252, 99077747, 99077750, 99082944, 99091885, 99091884, 99091880, 922140746, 922140627, 922140682, 99078114, 979969760, 2182396391, 979998330, 979998334, 99088378, 99081859, 3441147992, 3440116609, 99080649, 3440116535, 4867178702, 4867178703, 3436039241, 3432572740, 3432022677, 3432014041, 3431979735, 3431979720, 3431979726]
+correct route [99076271, 99076273, 99089295, 99076246, 99076248, 99076252, 99077747, 99077750, 99082944, 99091885, 99091884, 99091880, 922140746, 922140627, 922140682, 922140617, 922081764, 3436309877, 922081621, 922081631, 3436309429, 922081633, 3436301593, 922081648, 922081692, 922081694, 3436039467, 3432572737, 3432572738, 3432572621, 3432507479, 3432572620, 3432572597, 3432572739, 3432022919, 3432022676, 3432014039, 3432013852, 3432013856, 3431979733, 3431979726]
+Not same Dijkstra Heap
+Algo Distance: 4387.378999999998
+Correct Distance: 4266.67
+Algo route [99076271, 99076273, 99089295, 99076246, 99076248, 99076252, 99077747, 99077750, 99082944, 99091885, 99091884, 99091880, 922140746, 922140627, 922140682, 99078114, 979969760, 2182396391, 979998330, 979998334, 99088378, 99081859, 3441147992, 3440116609, 99080649, 3440116535, 4867178702, 4867178703, 3436039241, 3432572740, 3432022677, 3432014041, 3431979735, 3431979720, 3431979726]
+correct route [99076271, 99076273, 99089295, 99076246, 99076248, 99076252, 99077747, 99077750, 99082944, 99091885, 99091884, 99091880, 922140746, 922140627, 922140682, 922140617, 922081764, 3436309877, 922081621, 922081631, 3436309429, 922081633, 3436301593, 922081648, 922081692, 922081694, 3436039467, 3432572737, 3432572738, 3432572621, 3432507479, 3432572620, 3432572597, 3432572739, 3432022919, 3432022676, 3432014039, 3432013852, 3432013856, 3431979733, 3431979726]
+Not same Dijkstra Simple No Break
+Algo Distance: 4387.378999999998
+Correct Distance: 4266.67
+Algo route [99076271, 99076273, 99089295, 99076246, 99076248, 99076252, 99077747, 99077750, 99082944, 99091885, 99091884, 99091880, 922140746, 922140627, 922140682, 99078114, 979969760, 2182396391, 979998330, 979998334, 99088378, 99081859, 3441147992, 3440116609, 99080649, 3440116535, 4867178702, 4867178703, 3436039241, 3432572740, 3432022677, 3432014041, 3431979735, 3431979720, 3431979726]
+correct route [99076271, 99076273, 99089295, 99076246, 99076248, 99076252, 99077747, 99077750, 99082944, 99091885, 99091884, 99091880, 922140746, 922140627, 922140682, 922140617, 922081764, 3436309877, 922081621, 922081631, 3436309429, 922081633, 3436301593, 922081648, 922081692, 922081694, 3436039467, 3432572737, 3432572738, 3432572621, 3432507479, 3432572620, 3432572597, 3432572739, 3432022919, 3432022676, 3432014039, 3432013852, 3432013856, 3431979733, 3431979726]
+Not same Dijkstra Heap No break
+Algo Distance: 4387.378999999998
+Correct Distance: 4266.67
+Algo route [99076271, 99076273, 99089295, 99076246, 99076248, 99076252, 99077747, 99077750, 99082944, 99091885, 99091884, 99091880, 922140746, 922140627, 922140682, 99078114, 979969760, 2182396391, 979998330, 979998334, 99088378, 99081859, 3441147992, 3440116609, 99080649, 3440116535, 4867178702, 4867178703, 3436039241, 3432572740, 3432022677, 3432014041, 3431979735, 3431979720, 3431979726]
+correct route [99076271, 99076273, 99089295, 99076246, 99076248, 99076252, 99077747, 99077750, 99082944, 99091885, 99091884, 99091880, 922140746, 922140627, 922140682, 922140617, 922081764, 3436309877, 922081621, 922081631, 3436309429, 922081633, 3436301593, 922081648, 922081692, 922081694, 3436039467, 3432572737, 3432572738, 3432572621, 3432507479, 3432572620, 3432572597, 3432572739, 3432022919, 3432022676, 3432014039, 3432013852, 3432013856, 3431979733, 3431979726]
+route: 2
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+route: 3
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+
+ Validating: Bath, ME, USA
+route: 0
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+route: 1
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+route: 2
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+route: 3
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+
+ Validating: Stowe, VT, USA
+route: 0
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+route: 1
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+route: 2
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+route: 3
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+
+
+********************* Graph Details ****************************
+Test for Boston, MA, USA
+Total Number of Nodes 10987
+Total Number of Edges 25322
+
+
+Calculate shortest path using default OSM Shortest Path on Boston, MA, USA for route 0
+Distance of Shortest Path 13409.846999999996
+Total Time (seconds) Required to Calculate 0.0650627613067627
+Calculating Shortest path using BF for Boston, MA, USA for route 0
+Distance of Shortest Path 13409.846999999996
+Total Time (seconds) Required to Calculate 1.0482583045959473
+Calculating Shortest path using A* for Boston, MA, USA for route 0
+Distance of Shortest Path 13409.846999999996
+Total Time (seconds) Required to Calculate 0.17623639106750488
+Calculating Shortest path using Djikstra Simple for Boston, MA, USA for route 0
+Distance of Shortest Path 13409.846999999996
+Total Time (seconds) Required to Calculate 19.009920597076416
+Calculating Shortest path using Djikstra HeapQ for Boston, MA, USA for route 0
+Distance of Shortest Path 13409.846999999996
+Total Time (seconds) Required to Calculate 0.21838045120239258
+Calculating Shortest path using no-break Djikstra Simple for Boston, MA, USA for route 0
+Distance of Shortest Path 13409.846999999996
+Total Time (seconds) Required to Calculate 25.235536098480225
+Calculating Shortest path using no-break Djikstra HeapQ for Boston, MA, USA for route 0
+Distance of Shortest Path 13409.846999999996
+Total Time (seconds) Required to Calculate 0.18712425231933594
+
+Calculate shortest path using default OSM Shortest Path on Boston, MA, USA for route 1
+Distance of Shortest Path 14531.301000000005
+Total Time (seconds) Required to Calculate 0.07917118072509766
+Calculating Shortest path using BF for Boston, MA, USA for route 1
+Distance of Shortest Path 14669.242000000004
+Total Time (seconds) Required to Calculate 0.8742549419403076
+Calculating Shortest path using A* for Boston, MA, USA for route 1
+Distance of Shortest Path 14669.242000000004
+Total Time (seconds) Required to Calculate 0.2152388095855713
+Calculating Shortest path using Djikstra Simple for Boston, MA, USA for route 1
+Distance of Shortest Path 14669.242000000004
+Total Time (seconds) Required to Calculate 20.677120208740234
+Calculating Shortest path using Djikstra HeapQ for Boston, MA, USA for route 1
+Distance of Shortest Path 14669.242000000004
+Total Time (seconds) Required to Calculate 0.1817638874053955
+Calculating Shortest path using no-break Djikstra Simple for Boston, MA, USA for route 1
+Distance of Shortest Path 14669.242000000004
+Total Time (seconds) Required to Calculate 23.45306134223938
+Calculating Shortest path using no-break Djikstra HeapQ for Boston, MA, USA for route 1
+Distance of Shortest Path 14669.242000000004
+Total Time (seconds) Required to Calculate 0.2657456398010254
+
+Calculate shortest path using default OSM Shortest Path on Boston, MA, USA for route 2
+Distance of Shortest Path 23556.552000000014
+Total Time (seconds) Required to Calculate 0.07904386520385742
+Calculating Shortest path using BF for Boston, MA, USA for route 2
+Distance of Shortest Path 23738.955000000013
+Total Time (seconds) Required to Calculate 1.2039275169372559
+Calculating Shortest path using A* for Boston, MA, USA for route 2
+Distance of Shortest Path 23738.955000000013
+Total Time (seconds) Required to Calculate 0.20038700103759766
+Calculating Shortest path using Djikstra Simple for Boston, MA, USA for route 2
+Distance of Shortest Path 23738.955000000013
+Total Time (seconds) Required to Calculate 23.020812273025513
+Calculating Shortest path using Djikstra HeapQ for Boston, MA, USA for route 2
+Distance of Shortest Path 23738.955000000013
+Total Time (seconds) Required to Calculate 0.18601036071777344
+Calculating Shortest path using no-break Djikstra Simple for Boston, MA, USA for route 2
+Distance of Shortest Path 23738.955000000013
+Total Time (seconds) Required to Calculate 21.115015029907227
+Calculating Shortest path using no-break Djikstra HeapQ for Boston, MA, USA for route 2
+Distance of Shortest Path 23738.955000000013
+Total Time (seconds) Required to Calculate 0.2326972484588623
+
+Calculate shortest path using default OSM Shortest Path on Boston, MA, USA for route 3
+Distance of Shortest Path 14323.005000000001
+Total Time (seconds) Required to Calculate 0.05693221092224121
+Calculating Shortest path using BF for Boston, MA, USA for route 3
+Distance of Shortest Path 14323.005000000001
+Total Time (seconds) Required to Calculate 1.0119297504425049
+Calculating Shortest path using A* for Boston, MA, USA for route 3
+Distance of Shortest Path 14323.005000000001
+Total Time (seconds) Required to Calculate 0.16551542282104492
+Calculating Shortest path using Djikstra Simple for Boston, MA, USA for route 3
+Distance of Shortest Path 14323.005000000001
+Total Time (seconds) Required to Calculate 18.318939685821533
+Calculating Shortest path using Djikstra HeapQ for Boston, MA, USA for route 3
+Distance of Shortest Path 14323.005000000001
+Total Time (seconds) Required to Calculate 0.16806244850158691
+Calculating Shortest path using no-break Djikstra Simple for Boston, MA, USA for route 3
+Distance of Shortest Path 14323.005000000001
+Total Time (seconds) Required to Calculate 20.473134517669678
+Calculating Shortest path using no-break Djikstra HeapQ for Boston, MA, USA for route 3
+Distance of Shortest Path 14323.005000000001
+Total Time (seconds) Required to Calculate 0.1785597801208496
+
+********************* Graph Details ****************************
+Test for Seattle, WA, USA
+Total Number of Nodes 15638
+Total Number of Edges 45690
+
+
+Calculate shortest path using default OSM Shortest Path on Seattle, WA, USA for route 0
+Distance of Shortest Path 27768.414000000015
+Total Time (seconds) Required to Calculate 0.14806127548217773
+Calculating Shortest path using BF for Seattle, WA, USA for route 0
+Distance of Shortest Path 27768.414000000015
+Total Time (seconds) Required to Calculate 3.2801706790924072
+Calculating Shortest path using A* for Seattle, WA, USA for route 0
+Distance of Shortest Path 27768.414000000015
+Total Time (seconds) Required to Calculate 0.31796765327453613
+Calculating Shortest path using Djikstra Simple for Seattle, WA, USA for route 0
+Distance of Shortest Path 27768.414000000015
+Total Time (seconds) Required to Calculate 54.465550661087036
+Calculating Shortest path using Djikstra HeapQ for Seattle, WA, USA for route 0
+Distance of Shortest Path 27768.414000000015
+Total Time (seconds) Required to Calculate 0.3227238655090332
+Calculating Shortest path using no-break Djikstra Simple for Seattle, WA, USA for route 0
+Distance of Shortest Path 27768.414000000015
+Total Time (seconds) Required to Calculate 56.754584074020386
+Calculating Shortest path using no-break Djikstra HeapQ for Seattle, WA, USA for route 0
+Distance of Shortest Path 27768.414000000015
+Total Time (seconds) Required to Calculate 0.2852649688720703
+
+Calculate shortest path using default OSM Shortest Path on Seattle, WA, USA for route 1
+Distance of Shortest Path 2408.5190000000002
+Total Time (seconds) Required to Calculate 0.006011009216308594
+Calculating Shortest path using BF for Seattle, WA, USA for route 1
+Distance of Shortest Path 2408.5190000000002
+Total Time (seconds) Required to Calculate 1.0784940719604492
+Calculating Shortest path using A* for Seattle, WA, USA for route 1
+Distance of Shortest Path 2408.5190000000002
+Total Time (seconds) Required to Calculate 0.056551218032836914
+Calculating Shortest path using Djikstra Simple for Seattle, WA, USA for route 1
+Distance of Shortest Path 2408.5190000000002
+Total Time (seconds) Required to Calculate 3.456732749938965
+Calculating Shortest path using Djikstra HeapQ for Seattle, WA, USA for route 1
+Distance of Shortest Path 2408.5190000000002
+Total Time (seconds) Required to Calculate 0.050911903381347656
+Calculating Shortest path using no-break Djikstra Simple for Seattle, WA, USA for route 1
+Distance of Shortest Path 2408.5190000000002
+Total Time (seconds) Required to Calculate 51.975573778152466
+Calculating Shortest path using no-break Djikstra HeapQ for Seattle, WA, USA for route 1
+Distance of Shortest Path 2408.5190000000002
+Total Time (seconds) Required to Calculate 0.2721538543701172
+
+Calculate shortest path using default OSM Shortest Path on Seattle, WA, USA for route 2
+Distance of Shortest Path 8073.986
+Total Time (seconds) Required to Calculate 0.05156397819519043
+Calculating Shortest path using BF for Seattle, WA, USA for route 2
+Distance of Shortest Path 8073.986
+Total Time (seconds) Required to Calculate 1.0808963775634766
+Calculating Shortest path using A* for Seattle, WA, USA for route 2
+Distance of Shortest Path 8073.986
+Total Time (seconds) Required to Calculate 0.18784880638122559
+Calculating Shortest path using Djikstra Simple for Seattle, WA, USA for route 2
+Distance of Shortest Path 8073.986
+Total Time (seconds) Required to Calculate 26.455301523208618
+Calculating Shortest path using Djikstra HeapQ for Seattle, WA, USA for route 2
+Distance of Shortest Path 8073.986
+Total Time (seconds) Required to Calculate 0.1562027931213379
+Calculating Shortest path using no-break Djikstra Simple for Seattle, WA, USA for route 2
+Distance of Shortest Path 8073.986
+Total Time (seconds) Required to Calculate 53.314828634262085
+Calculating Shortest path using no-break Djikstra HeapQ for Seattle, WA, USA for route 2
+Distance of Shortest Path 8073.986
+Total Time (seconds) Required to Calculate 0.27835702896118164
+
+Calculate shortest path using default OSM Shortest Path on Seattle, WA, USA for route 3
+Distance of Shortest Path 7375.698999999997
+Total Time (seconds) Required to Calculate 0.04919123649597168
+Calculating Shortest path using BF for Seattle, WA, USA for route 3
+Distance of Shortest Path 7375.698999999997
+Total Time (seconds) Required to Calculate 1.8989262580871582
+Calculating Shortest path using A* for Seattle, WA, USA for route 3
+Distance of Shortest Path 7375.698999999997
+Total Time (seconds) Required to Calculate 0.16799664497375488
+Calculating Shortest path using Djikstra Simple for Seattle, WA, USA for route 3
+Distance of Shortest Path 7375.698999999997
+Total Time (seconds) Required to Calculate 24.81438136100769
+Calculating Shortest path using Djikstra HeapQ for Seattle, WA, USA for route 3
+Distance of Shortest Path 7375.698999999997
+Total Time (seconds) Required to Calculate 0.15526914596557617
+Calculating Shortest path using no-break Djikstra Simple for Seattle, WA, USA for route 3
+Distance of Shortest Path 7375.698999999997
+Total Time (seconds) Required to Calculate 52.12922382354736
+Calculating Shortest path using no-break Djikstra HeapQ for Seattle, WA, USA for route 3
+Distance of Shortest Path 7375.698999999997
+Total Time (seconds) Required to Calculate 0.3052189350128174
+
+********************* Graph Details ****************************
+Test for Nashville, TN, USA
+Total Number of Nodes 21850
+Total Number of Edges 54557
+
+
+Calculate shortest path using default OSM Shortest Path on Nashville, TN, USA for route 0
+Distance of Shortest Path 49094.80600000001
+Total Time (seconds) Required to Calculate 0.16543245315551758
+Calculating Shortest path using BF for Nashville, TN, USA for route 0
+Distance of Shortest Path 49094.80600000001
+Total Time (seconds) Required to Calculate 2.119765520095825
+Calculating Shortest path using A* for Nashville, TN, USA for route 0
+Distance of Shortest Path 49094.80600000001
+Total Time (seconds) Required to Calculate 0.46111512184143066
+Calculating Shortest path using Djikstra Simple for Nashville, TN, USA for route 0
+Distance of Shortest Path 49094.80600000001
+Total Time (seconds) Required to Calculate 105.29173684120178
+Calculating Shortest path using Djikstra HeapQ for Nashville, TN, USA for route 0
+Distance of Shortest Path 49094.80600000001
+Total Time (seconds) Required to Calculate 0.4062814712524414
+Calculating Shortest path using no-break Djikstra Simple for Nashville, TN, USA for route 0
+Distance of Shortest Path 49094.80600000001
+Total Time (seconds) Required to Calculate 111.75623726844788
+Calculating Shortest path using no-break Djikstra HeapQ for Nashville, TN, USA for route 0
+Distance of Shortest Path 49094.80600000001
+Total Time (seconds) Required to Calculate 0.4360964298248291
+
+Calculate shortest path using default OSM Shortest Path on Nashville, TN, USA for route 1
+Distance of Shortest Path 40780.81099999996
+Total Time (seconds) Required to Calculate 0.1945657730102539
+Calculating Shortest path using BF for Nashville, TN, USA for route 1
+Distance of Shortest Path 40780.81099999996
+Total Time (seconds) Required to Calculate 8.250644445419312
+Calculating Shortest path using A* for Nashville, TN, USA for route 1
+Distance of Shortest Path 40780.81099999996
+Total Time (seconds) Required to Calculate 0.366239070892334
+Calculating Shortest path using Djikstra Simple for Nashville, TN, USA for route 1
+Distance of Shortest Path 40780.81099999996
+Total Time (seconds) Required to Calculate 86.94050598144531
+Calculating Shortest path using Djikstra HeapQ for Nashville, TN, USA for route 1
+Distance of Shortest Path 40780.81099999996
+Total Time (seconds) Required to Calculate 0.41359925270080566
+Calculating Shortest path using no-break Djikstra Simple for Nashville, TN, USA for route 1
+Distance of Shortest Path 40780.81099999996
+Total Time (seconds) Required to Calculate 106.6472680568695
+Calculating Shortest path using no-break Djikstra HeapQ for Nashville, TN, USA for route 1
+Distance of Shortest Path 40780.81099999996
+Total Time (seconds) Required to Calculate 0.4481523036956787
+
+Calculate shortest path using default OSM Shortest Path on Nashville, TN, USA for route 2
+Distance of Shortest Path 13032.411999999997
+Total Time (seconds) Required to Calculate 0.04196619987487793
+Calculating Shortest path using BF for Nashville, TN, USA for route 2
+Distance of Shortest Path 13032.411999999997
+Total Time (seconds) Required to Calculate 3.7351675033569336
+Calculating Shortest path using A* for Nashville, TN, USA for route 2
+Distance of Shortest Path 13032.411999999997
+Total Time (seconds) Required to Calculate 0.15784358978271484
+Calculating Shortest path using Djikstra Simple for Nashville, TN, USA for route 2
+Distance of Shortest Path 13032.411999999997
+Total Time (seconds) Required to Calculate 28.513391256332397
+Calculating Shortest path using Djikstra HeapQ for Nashville, TN, USA for route 2
+Distance of Shortest Path 13032.411999999997
+Total Time (seconds) Required to Calculate 0.1629936695098877
+Calculating Shortest path using no-break Djikstra Simple for Nashville, TN, USA for route 2
+Distance of Shortest Path 13032.411999999997
+Total Time (seconds) Required to Calculate 105.76571393013
+Calculating Shortest path using no-break Djikstra HeapQ for Nashville, TN, USA for route 2
+Distance of Shortest Path 13032.411999999997
+Total Time (seconds) Required to Calculate 0.4131443500518799
+
+Calculate shortest path using default OSM Shortest Path on Nashville, TN, USA for route 3
+Distance of Shortest Path 27426.384999999995
+Total Time (seconds) Required to Calculate 0.06791210174560547
+Calculating Shortest path using BF for Nashville, TN, USA for route 3
+Distance of Shortest Path 27557.285999999996
+Total Time (seconds) Required to Calculate 2.189629316329956
+Calculating Shortest path using A* for Nashville, TN, USA for route 3
+Distance of Shortest Path 27557.285999999996
+Total Time (seconds) Required to Calculate 0.2570784091949463
+Calculating Shortest path using Djikstra Simple for Nashville, TN, USA for route 3
+Distance of Shortest Path 27557.285999999996
+Total Time (seconds) Required to Calculate 57.442060708999634
+Calculating Shortest path using Djikstra HeapQ for Nashville, TN, USA for route 3
+Distance of Shortest Path 27557.285999999996
+Total Time (seconds) Required to Calculate 0.25898051261901855
+Calculating Shortest path using no-break Djikstra Simple for Nashville, TN, USA for route 3
+Distance of Shortest Path 27557.285999999996
+Total Time (seconds) Required to Calculate 104.0281298160553
+Calculating Shortest path using no-break Djikstra HeapQ for Nashville, TN, USA for route 3
+Distance of Shortest Path 27557.285999999996
+Total Time (seconds) Required to Calculate 0.4348909854888916
+
+*********** Validation Against Built-In Shortest Path *********************
+
+ Validating: Boston, MA, USA
+route: 0
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+route: 1
+Not same BF
+Algo Distance: 14669.242000000004
+Correct Distance: 14531.301000000005
+Algo route [61365752, 61365749, 61343661, 61343659, 61459107, 61343653, 61343642, 61343646, 61344125, 5976362893, 61344121, 5976321525, 61344179, 61344181, 61344116, 61371461, 61344928, 61459328, 61459302, 3007949608, 3007949846, 3007948836, 3007948869, 3007948856, 3007949302, 3007949319, 3007948858, 3007948862, 3007952294, 3007975899, 4204603018, 4204603014, 6008662200, 3007961486, 61385862, 61345832, 61345838, 61349075, 61346783, 61346616, 61346587, 61401955, 61402000, 61401982, 61347438, 61347444, 61402320, 61402318, 61422671, 61346941, 8170967568, 4937611269, 4937611279, 4937411437, 4780399908, 61467223, 61467020, 61371028, 61388147, 61339683, 61489807, 61367050, 4954050821, 61487278, 61367044, 61343155, 61343116, 61502313, 61374140, 61404935, 61374147, 61342064, 61394729, 61374137, 61379153, 61342002, 61379160, 61505782, 61355747, 61506116, 61354801, 61506200, 61357796, 61508004, 61424057, 61411869, 61357430, 61357452, 4948049609, 61495489, 61354795, 61411937, 61357339, 61429315, 4867412481, 4867412484, 4047067574, 4044988773, 61359520, 3039940654, 61374112, 61357526, 61359078, 61359565, 61400362, 61355218, 61361343, 61425555, 61385288, 61361402, 61364312, 61364379, 61364375, 61458574, 61458561, 61349964, 61348417, 61348402, 6587873778, 61348423, 61458554, 61361994, 61348249, 61359995, 61364343, 61577792, 61359223, 61359986, 61358933, 61358929, 61519692, 61364494, 61364485, 61458839, 61358763, 61358768, 61358169, 61365482, 61365479, 61365478, 61367280, 61520917, 61367162, 61365391, 61365343]
+correct route [61365752, 61365749, 61343661, 61343659, 61459107, 61343653, 61343642, 61343646, 61344125, 5976362893, 61344121, 5976321525, 61344179, 61344181, 61344116, 61371461, 61344928, 61459328, 61459302, 3007949608, 3007949846, 3007948836, 3007948869, 3007948856, 3007949302, 3007949319, 3007948858, 3007948862, 3007952294, 3007975899, 4204603018, 4204603014, 6008662200, 3007961486, 61385862, 61348107, 61368734, 61453227, 61453229, 61371277, 61453118, 61359284, 61496608, 61496642, 61366428, 61345911, 1173894791, 61345907, 61561829, 61568594, 1173894782, 1173899369, 61348054, 61348055, 61345068, 61345102, 61345533, 61345551, 61345487, 61346402, 61363187, 61370849, 61464570, 61464704, 4257771900, 61345573, 61463793, 6093500826, 61346489, 61346475, 61345426, 61463652, 61348921, 61517352, 61346178, 61402159, 61402166, 61347168, 61347164, 61402210, 61402213, 61339406, 61339408, 61339409, 61465023, 61465057, 61457002, 61351237, 61351242, 61347642, 61470167, 61470192, 61343114, 61341519, 61341241, 61492558, 61492552, 61341667, 61492541, 61341929, 61341631, 61341633, 61342039, 61342031, 61355808, 61355807, 61354774, 61354558, 61349140, 61349146, 61349142, 4044988773, 61359520, 3039940654, 61374112, 61357526, 61359078, 61359565, 61400362, 61355218, 61361343, 61425555, 61385288, 61361402, 61364312, 61364379, 61364375, 61458574, 61458561, 61349964, 61348417, 61348402, 6587873778, 61348423, 61458554, 61361994, 61348249, 61359995, 61364343, 61577792, 61359223, 61359986, 61358933, 61358929, 61519692, 61364494, 61364485, 61458839, 61358763, 61358768, 61358169, 61365482, 61365479, 61365478, 61367280, 61520917, 61367162, 61365391, 61365343]
+Not same Astar
+Algo Distance: 14669.242000000004
+Correct Distance: 14531.301000000005
+Algo route [61365752, 61365749, 61343661, 61343659, 61459107, 61343653, 61343642, 61343646, 61344125, 5976362893, 61344121, 5976321525, 61344179, 61344181, 61344116, 61371461, 61344928, 61459328, 61459302, 3007949608, 3007949846, 3007948836, 3007948869, 3007948856, 3007949302, 3007949319, 3007948858, 3007948862, 3007952294, 3007975899, 4204603018, 4204603014, 6008662200, 3007961486, 61385862, 61345832, 61345838, 61349075, 61346783, 61346616, 61346587, 61401955, 61402000, 61401982, 61347438, 61347444, 61402320, 61402318, 61422671, 61346941, 8170967568, 4937611269, 4937611279, 4937411437, 4780399908, 61467223, 61467020, 61371028, 61388147, 61339683, 61489807, 61367050, 4954050821, 61487278, 61367044, 61343155, 61343116, 61502313, 61374140, 61404935, 61374147, 61342064, 61394729, 61374137, 61379153, 61342002, 61379160, 61505782, 61355747, 61506116, 61354801, 61506200, 61357796, 61508004, 61424057, 61411869, 61357430, 61357452, 4948049609, 61495489, 61354795, 61411937, 61357339, 61429315, 4867412481, 4867412484, 4047067574, 4044988773, 61359520, 3039940654, 61374112, 61357526, 61359078, 61359565, 61400362, 61355218, 61361343, 61425555, 61385288, 61361402, 61364312, 61364379, 61364375, 61458574, 61458561, 61349964, 61348417, 61348402, 6587873778, 61348423, 61458554, 61361994, 61348249, 61359995, 61364343, 61577792, 61359223, 61359986, 61358933, 61358929, 61519692, 61364494, 61364485, 61458839, 61358763, 61358768, 61358169, 61365482, 61365479, 61365478, 61367280, 61520917, 61367162, 61365391, 61365343]
+correct route [61365752, 61365749, 61343661, 61343659, 61459107, 61343653, 61343642, 61343646, 61344125, 5976362893, 61344121, 5976321525, 61344179, 61344181, 61344116, 61371461, 61344928, 61459328, 61459302, 3007949608, 3007949846, 3007948836, 3007948869, 3007948856, 3007949302, 3007949319, 3007948858, 3007948862, 3007952294, 3007975899, 4204603018, 4204603014, 6008662200, 3007961486, 61385862, 61348107, 61368734, 61453227, 61453229, 61371277, 61453118, 61359284, 61496608, 61496642, 61366428, 61345911, 1173894791, 61345907, 61561829, 61568594, 1173894782, 1173899369, 61348054, 61348055, 61345068, 61345102, 61345533, 61345551, 61345487, 61346402, 61363187, 61370849, 61464570, 61464704, 4257771900, 61345573, 61463793, 6093500826, 61346489, 61346475, 61345426, 61463652, 61348921, 61517352, 61346178, 61402159, 61402166, 61347168, 61347164, 61402210, 61402213, 61339406, 61339408, 61339409, 61465023, 61465057, 61457002, 61351237, 61351242, 61347642, 61470167, 61470192, 61343114, 61341519, 61341241, 61492558, 61492552, 61341667, 61492541, 61341929, 61341631, 61341633, 61342039, 61342031, 61355808, 61355807, 61354774, 61354558, 61349140, 61349146, 61349142, 4044988773, 61359520, 3039940654, 61374112, 61357526, 61359078, 61359565, 61400362, 61355218, 61361343, 61425555, 61385288, 61361402, 61364312, 61364379, 61364375, 61458574, 61458561, 61349964, 61348417, 61348402, 6587873778, 61348423, 61458554, 61361994, 61348249, 61359995, 61364343, 61577792, 61359223, 61359986, 61358933, 61358929, 61519692, 61364494, 61364485, 61458839, 61358763, 61358768, 61358169, 61365482, 61365479, 61365478, 61367280, 61520917, 61367162, 61365391, 61365343]
+Not same Dijkstra Simple
+Algo Distance: 14669.242000000004
+Correct Distance: 14531.301000000005
+Algo route [61365752, 61365749, 61343661, 61343659, 61459107, 61343653, 61343642, 61343646, 61344125, 5976362893, 61344121, 5976321525, 61344179, 61344181, 61344116, 61371461, 61344928, 61459328, 61459302, 3007949608, 3007949846, 3007948836, 3007948869, 3007948856, 3007949302, 3007949319, 3007948858, 3007948862, 3007952294, 3007975899, 4204603018, 4204603014, 6008662200, 3007961486, 61385862, 61345832, 61345838, 61349075, 61346783, 61346616, 61346587, 61401955, 61402000, 61401982, 61347438, 61347444, 61402320, 61402318, 61422671, 61346941, 8170967568, 4937611269, 4937611279, 4937411437, 4780399908, 61467223, 61467020, 61371028, 61388147, 61339683, 61489807, 61367050, 4954050821, 61487278, 61367044, 61343155, 61343116, 61502313, 61374140, 61404935, 61374147, 61342064, 61394729, 61374137, 61379153, 61342002, 61379160, 61505782, 61355747, 61506116, 61354801, 61506200, 61357796, 61508004, 61424057, 61411869, 61357430, 61357452, 4948049609, 61495489, 61354795, 61411937, 61357339, 61429315, 4867412481, 4867412484, 4047067574, 4044988773, 61359520, 3039940654, 61374112, 61357526, 61359078, 61359565, 61400362, 61355218, 61361343, 61425555, 61385288, 61361402, 61364312, 61364379, 61364375, 61458574, 61458561, 61349964, 61348417, 61348402, 6587873778, 61348423, 61458554, 61361994, 61348249, 61359995, 61364343, 61577792, 61359223, 61359986, 61358933, 61358929, 61519692, 61364494, 61364485, 61458839, 61358763, 61358768, 61358169, 61365482, 61365479, 61365478, 61367280, 61520917, 61367162, 61365391, 61365343]
+correct route [61365752, 61365749, 61343661, 61343659, 61459107, 61343653, 61343642, 61343646, 61344125, 5976362893, 61344121, 5976321525, 61344179, 61344181, 61344116, 61371461, 61344928, 61459328, 61459302, 3007949608, 3007949846, 3007948836, 3007948869, 3007948856, 3007949302, 3007949319, 3007948858, 3007948862, 3007952294, 3007975899, 4204603018, 4204603014, 6008662200, 3007961486, 61385862, 61348107, 61368734, 61453227, 61453229, 61371277, 61453118, 61359284, 61496608, 61496642, 61366428, 61345911, 1173894791, 61345907, 61561829, 61568594, 1173894782, 1173899369, 61348054, 61348055, 61345068, 61345102, 61345533, 61345551, 61345487, 61346402, 61363187, 61370849, 61464570, 61464704, 4257771900, 61345573, 61463793, 6093500826, 61346489, 61346475, 61345426, 61463652, 61348921, 61517352, 61346178, 61402159, 61402166, 61347168, 61347164, 61402210, 61402213, 61339406, 61339408, 61339409, 61465023, 61465057, 61457002, 61351237, 61351242, 61347642, 61470167, 61470192, 61343114, 61341519, 61341241, 61492558, 61492552, 61341667, 61492541, 61341929, 61341631, 61341633, 61342039, 61342031, 61355808, 61355807, 61354774, 61354558, 61349140, 61349146, 61349142, 4044988773, 61359520, 3039940654, 61374112, 61357526, 61359078, 61359565, 61400362, 61355218, 61361343, 61425555, 61385288, 61361402, 61364312, 61364379, 61364375, 61458574, 61458561, 61349964, 61348417, 61348402, 6587873778, 61348423, 61458554, 61361994, 61348249, 61359995, 61364343, 61577792, 61359223, 61359986, 61358933, 61358929, 61519692, 61364494, 61364485, 61458839, 61358763, 61358768, 61358169, 61365482, 61365479, 61365478, 61367280, 61520917, 61367162, 61365391, 61365343]
+Not same Dijkstra Heap
+Algo Distance: 14669.242000000004
+Correct Distance: 14531.301000000005
+Algo route [61365752, 61365749, 61343661, 61343659, 61459107, 61343653, 61343642, 61343646, 61344125, 5976362893, 61344121, 5976321525, 61344179, 61344181, 61344116, 61371461, 61344928, 61459328, 61459302, 3007949608, 3007949846, 3007948836, 3007948869, 3007948856, 3007949302, 3007949319, 3007948858, 3007948862, 3007952294, 3007975899, 4204603018, 4204603014, 6008662200, 3007961486, 61385862, 61345832, 61345838, 61349075, 61346783, 61346616, 61346587, 61401955, 61402000, 61401982, 61347438, 61347444, 61402320, 61402318, 61422671, 61346941, 8170967568, 4937611269, 4937611279, 4937411437, 4780399908, 61467223, 61467020, 61371028, 61388147, 61339683, 61489807, 61367050, 4954050821, 61487278, 61367044, 61343155, 61343116, 61502313, 61374140, 61404935, 61374147, 61342064, 61394729, 61374137, 61379153, 61342002, 61379160, 61505782, 61355747, 61506116, 61354801, 61506200, 61357796, 61508004, 61424057, 61411869, 61357430, 61357452, 4948049609, 61495489, 61354795, 61411937, 61357339, 61429315, 4867412481, 4867412484, 4047067574, 4044988773, 61359520, 3039940654, 61374112, 61357526, 61359078, 61359565, 61400362, 61355218, 61361343, 61425555, 61385288, 61361402, 61364312, 61364379, 61364375, 61458574, 61458561, 61349964, 61348417, 61348402, 6587873778, 61348423, 61458554, 61361994, 61348249, 61359995, 61364343, 61577792, 61359223, 61359986, 61358933, 61358929, 61519692, 61364494, 61364485, 61458839, 61358763, 61358768, 61358169, 61365482, 61365479, 61365478, 61367280, 61520917, 61367162, 61365391, 61365343]
+correct route [61365752, 61365749, 61343661, 61343659, 61459107, 61343653, 61343642, 61343646, 61344125, 5976362893, 61344121, 5976321525, 61344179, 61344181, 61344116, 61371461, 61344928, 61459328, 61459302, 3007949608, 3007949846, 3007948836, 3007948869, 3007948856, 3007949302, 3007949319, 3007948858, 3007948862, 3007952294, 3007975899, 4204603018, 4204603014, 6008662200, 3007961486, 61385862, 61348107, 61368734, 61453227, 61453229, 61371277, 61453118, 61359284, 61496608, 61496642, 61366428, 61345911, 1173894791, 61345907, 61561829, 61568594, 1173894782, 1173899369, 61348054, 61348055, 61345068, 61345102, 61345533, 61345551, 61345487, 61346402, 61363187, 61370849, 61464570, 61464704, 4257771900, 61345573, 61463793, 6093500826, 61346489, 61346475, 61345426, 61463652, 61348921, 61517352, 61346178, 61402159, 61402166, 61347168, 61347164, 61402210, 61402213, 61339406, 61339408, 61339409, 61465023, 61465057, 61457002, 61351237, 61351242, 61347642, 61470167, 61470192, 61343114, 61341519, 61341241, 61492558, 61492552, 61341667, 61492541, 61341929, 61341631, 61341633, 61342039, 61342031, 61355808, 61355807, 61354774, 61354558, 61349140, 61349146, 61349142, 4044988773, 61359520, 3039940654, 61374112, 61357526, 61359078, 61359565, 61400362, 61355218, 61361343, 61425555, 61385288, 61361402, 61364312, 61364379, 61364375, 61458574, 61458561, 61349964, 61348417, 61348402, 6587873778, 61348423, 61458554, 61361994, 61348249, 61359995, 61364343, 61577792, 61359223, 61359986, 61358933, 61358929, 61519692, 61364494, 61364485, 61458839, 61358763, 61358768, 61358169, 61365482, 61365479, 61365478, 61367280, 61520917, 61367162, 61365391, 61365343]
+Not same Dijkstra Simple No Break
+Algo Distance: 14669.242000000004
+Correct Distance: 14531.301000000005
+Algo route [61365752, 61365749, 61343661, 61343659, 61459107, 61343653, 61343642, 61343646, 61344125, 5976362893, 61344121, 5976321525, 61344179, 61344181, 61344116, 61371461, 61344928, 61459328, 61459302, 3007949608, 3007949846, 3007948836, 3007948869, 3007948856, 3007949302, 3007949319, 3007948858, 3007948862, 3007952294, 3007975899, 4204603018, 4204603014, 6008662200, 3007961486, 61385862, 61345832, 61345838, 61349075, 61346783, 61346616, 61346587, 61401955, 61402000, 61401982, 61347438, 61347444, 61402320, 61402318, 61422671, 61346941, 8170967568, 4937611269, 4937611279, 4937411437, 4780399908, 61467223, 61467020, 61371028, 61388147, 61339683, 61489807, 61367050, 4954050821, 61487278, 61367044, 61343155, 61343116, 61502313, 61374140, 61404935, 61374147, 61342064, 61394729, 61374137, 61379153, 61342002, 61379160, 61505782, 61355747, 61506116, 61354801, 61506200, 61357796, 61508004, 61424057, 61411869, 61357430, 61357452, 4948049609, 61495489, 61354795, 61411937, 61357339, 61429315, 4867412481, 4867412484, 4047067574, 4044988773, 61359520, 3039940654, 61374112, 61357526, 61359078, 61359565, 61400362, 61355218, 61361343, 61425555, 61385288, 61361402, 61364312, 61364379, 61364375, 61458574, 61458561, 61349964, 61348417, 61348402, 6587873778, 61348423, 61458554, 61361994, 61348249, 61359995, 61364343, 61577792, 61359223, 61359986, 61358933, 61358929, 61519692, 61364494, 61364485, 61458839, 61358763, 61358768, 61358169, 61365482, 61365479, 61365478, 61367280, 61520917, 61367162, 61365391, 61365343]
+correct route [61365752, 61365749, 61343661, 61343659, 61459107, 61343653, 61343642, 61343646, 61344125, 5976362893, 61344121, 5976321525, 61344179, 61344181, 61344116, 61371461, 61344928, 61459328, 61459302, 3007949608, 3007949846, 3007948836, 3007948869, 3007948856, 3007949302, 3007949319, 3007948858, 3007948862, 3007952294, 3007975899, 4204603018, 4204603014, 6008662200, 3007961486, 61385862, 61348107, 61368734, 61453227, 61453229, 61371277, 61453118, 61359284, 61496608, 61496642, 61366428, 61345911, 1173894791, 61345907, 61561829, 61568594, 1173894782, 1173899369, 61348054, 61348055, 61345068, 61345102, 61345533, 61345551, 61345487, 61346402, 61363187, 61370849, 61464570, 61464704, 4257771900, 61345573, 61463793, 6093500826, 61346489, 61346475, 61345426, 61463652, 61348921, 61517352, 61346178, 61402159, 61402166, 61347168, 61347164, 61402210, 61402213, 61339406, 61339408, 61339409, 61465023, 61465057, 61457002, 61351237, 61351242, 61347642, 61470167, 61470192, 61343114, 61341519, 61341241, 61492558, 61492552, 61341667, 61492541, 61341929, 61341631, 61341633, 61342039, 61342031, 61355808, 61355807, 61354774, 61354558, 61349140, 61349146, 61349142, 4044988773, 61359520, 3039940654, 61374112, 61357526, 61359078, 61359565, 61400362, 61355218, 61361343, 61425555, 61385288, 61361402, 61364312, 61364379, 61364375, 61458574, 61458561, 61349964, 61348417, 61348402, 6587873778, 61348423, 61458554, 61361994, 61348249, 61359995, 61364343, 61577792, 61359223, 61359986, 61358933, 61358929, 61519692, 61364494, 61364485, 61458839, 61358763, 61358768, 61358169, 61365482, 61365479, 61365478, 61367280, 61520917, 61367162, 61365391, 61365343]
+Not same Dijkstra Heap No break
+Algo Distance: 14669.242000000004
+Correct Distance: 14531.301000000005
+Algo route [61365752, 61365749, 61343661, 61343659, 61459107, 61343653, 61343642, 61343646, 61344125, 5976362893, 61344121, 5976321525, 61344179, 61344181, 61344116, 61371461, 61344928, 61459328, 61459302, 3007949608, 3007949846, 3007948836, 3007948869, 3007948856, 3007949302, 3007949319, 3007948858, 3007948862, 3007952294, 3007975899, 4204603018, 4204603014, 6008662200, 3007961486, 61385862, 61345832, 61345838, 61349075, 61346783, 61346616, 61346587, 61401955, 61402000, 61401982, 61347438, 61347444, 61402320, 61402318, 61422671, 61346941, 8170967568, 4937611269, 4937611279, 4937411437, 4780399908, 61467223, 61467020, 61371028, 61388147, 61339683, 61489807, 61367050, 4954050821, 61487278, 61367044, 61343155, 61343116, 61502313, 61374140, 61404935, 61374147, 61342064, 61394729, 61374137, 61379153, 61342002, 61379160, 61505782, 61355747, 61506116, 61354801, 61506200, 61357796, 61508004, 61424057, 61411869, 61357430, 61357452, 4948049609, 61495489, 61354795, 61411937, 61357339, 61429315, 4867412481, 4867412484, 4047067574, 4044988773, 61359520, 3039940654, 61374112, 61357526, 61359078, 61359565, 61400362, 61355218, 61361343, 61425555, 61385288, 61361402, 61364312, 61364379, 61364375, 61458574, 61458561, 61349964, 61348417, 61348402, 6587873778, 61348423, 61458554, 61361994, 61348249, 61359995, 61364343, 61577792, 61359223, 61359986, 61358933, 61358929, 61519692, 61364494, 61364485, 61458839, 61358763, 61358768, 61358169, 61365482, 61365479, 61365478, 61367280, 61520917, 61367162, 61365391, 61365343]
+correct route [61365752, 61365749, 61343661, 61343659, 61459107, 61343653, 61343642, 61343646, 61344125, 5976362893, 61344121, 5976321525, 61344179, 61344181, 61344116, 61371461, 61344928, 61459328, 61459302, 3007949608, 3007949846, 3007948836, 3007948869, 3007948856, 3007949302, 3007949319, 3007948858, 3007948862, 3007952294, 3007975899, 4204603018, 4204603014, 6008662200, 3007961486, 61385862, 61348107, 61368734, 61453227, 61453229, 61371277, 61453118, 61359284, 61496608, 61496642, 61366428, 61345911, 1173894791, 61345907, 61561829, 61568594, 1173894782, 1173899369, 61348054, 61348055, 61345068, 61345102, 61345533, 61345551, 61345487, 61346402, 61363187, 61370849, 61464570, 61464704, 4257771900, 61345573, 61463793, 6093500826, 61346489, 61346475, 61345426, 61463652, 61348921, 61517352, 61346178, 61402159, 61402166, 61347168, 61347164, 61402210, 61402213, 61339406, 61339408, 61339409, 61465023, 61465057, 61457002, 61351237, 61351242, 61347642, 61470167, 61470192, 61343114, 61341519, 61341241, 61492558, 61492552, 61341667, 61492541, 61341929, 61341631, 61341633, 61342039, 61342031, 61355808, 61355807, 61354774, 61354558, 61349140, 61349146, 61349142, 4044988773, 61359520, 3039940654, 61374112, 61357526, 61359078, 61359565, 61400362, 61355218, 61361343, 61425555, 61385288, 61361402, 61364312, 61364379, 61364375, 61458574, 61458561, 61349964, 61348417, 61348402, 6587873778, 61348423, 61458554, 61361994, 61348249, 61359995, 61364343, 61577792, 61359223, 61359986, 61358933, 61358929, 61519692, 61364494, 61364485, 61458839, 61358763, 61358768, 61358169, 61365482, 61365479, 61365478, 61367280, 61520917, 61367162, 61365391, 61365343]
+route: 2
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+route: 3
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+
+ Validating: Seattle, WA, USA
+route: 0
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+route: 1
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+route: 2
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+route: 3
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+
+ Validating: Nashville, TN, USA
+route: 0
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+route: 1
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+route: 2
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+route: 3
+BF is correct
+Astar is correct
+Dijkstra Simple is correct
+Dijkstra Heap is correct
+Dijkstra Simple No Break is correct
+Dijkstra Heap No break is correct
+
+
+********************* Graph Details ****************************
+Test for New York, New York, USA
+Total Number of Nodes 55314
+Total Number of Edges 140557
+
+
+Calculate shortest path using default OSM Shortest Path on New York, New York, USA for route 0
+Distance of Shortest Path 55371.48099999996
+Total Time (seconds) Required to Calculate 0.6724750995635986
+Calculating Shortest path using BF for New York, New York, USA for route 0
+Distance of Shortest Path 55371.48099999996
+Total Time (seconds) Required to Calculate 48.788548707962036
+Calculating Shortest path using A* for New York, New York, USA for route 0
+Distance of Shortest Path 55371.48099999996
+Total Time (seconds) Required to Calculate 1.1665759086608887
+Calculating Shortest path using Djikstra Simple for New York, New York, USA for route 0
+Distance of Shortest Path 55371.48099999996
+Total Time (seconds) Required to Calculate 702.2584939002991
+Calculating Shortest path using Djikstra HeapQ for New York, New York, USA for route 0
+Distance of Shortest Path 55371.48099999996
+Total Time (seconds) Required to Calculate 1.131014347076416
+Calculating Shortest path using no-break Djikstra Simple for New York, New York, USA for route 0
+Distance of Shortest Path 55371.48099999996
+Total Time (seconds) Required to Calculate 773.6170604228973
+Calculating Shortest path using no-break Djikstra HeapQ for New York, New York, USA for route 0
+Distance of Shortest Path 55371.48099999996
+Total Time (seconds) Required to Calculate 1.2959880828857422
+
+Calculate shortest path using default OSM Shortest Path on New York, New York, USA for route 1
+Distance of Shortest Path 40813.71
+Total Time (seconds) Required to Calculate 0.7376539707183838
+Calculating Shortest path using BF for New York, New York, USA for route 1
+Distance of Shortest Path 40813.71
+Total Time (seconds) Required to Calculate 26.752010583877563
+Calculating Shortest path using A* for New York, New York, USA for route 1
+Distance of Shortest Path 40813.71
+Total Time (seconds) Required to Calculate 1.3604881763458252
+Calculating Shortest path using Djikstra Simple for New York, New York, USA for route 1
+Distance of Shortest Path 40813.71
+Total Time (seconds) Required to Calculate 808.7817561626434
+Calculating Shortest path using Djikstra HeapQ for New York, New York, USA for route 1
+Distance of Shortest Path 40813.71
+Total Time (seconds) Required to Calculate 1.2809405326843262
+Calculating Shortest path using no-break Djikstra Simple for New York, New York, USA for route 1
+Distance of Shortest Path 40813.71
+Total Time (seconds) Required to Calculate 817.6586322784424
+Calculating Shortest path using no-break Djikstra HeapQ for New York, New York, USA for route 1
+Distance of Shortest Path 40813.71
+Total Time (seconds) Required to Calculate 1.268967628479004
+
+Calculate shortest path using default OSM Shortest Path on New York, New York, USA for route 2
+Distance of Shortest Path 27436.99199999998
+Total Time (seconds) Required to Calculate 0.61871337890625
+Calculating Shortest path using BF for New York, New York, USA for route 2
+Distance of Shortest Path 27436.99199999998
+Total Time (seconds) Required to Calculate 24.223084211349487
+Calculating Shortest path using A* for New York, New York, USA for route 2
+Distance of Shortest Path 27436.99199999998
+Total Time (seconds) Required to Calculate 1.5098040103912354
+Calculating Shortest path using Djikstra Simple for New York, New York, USA for route 2
+Distance of Shortest Path 27436.99199999998
+Total Time (seconds) Required to Calculate 666.2146615982056
+Calculating Shortest path using Djikstra HeapQ for New York, New York, USA for route 2
+Distance of Shortest Path 27436.99199999998
+Total Time (seconds) Required to Calculate 1.084590196609497
+Calculating Shortest path using no-break Djikstra Simple for New York, New York, USA for route 2
+Distance of Shortest Path 27436.99199999998
+Total Time (seconds) Required to Calculate 809.9255695343018
+Calculating Shortest path using no-break Djikstra HeapQ for New York, New York, USA for route 2
+Distance of Shortest Path 27436.99199999998
+Total Time (seconds) Required to Calculate 1.237504005432129
+
+Calculate shortest path using default OSM Shortest Path on New York, New York, USA for route 3
+Distance of Shortest Path 27216.387
+Total Time (seconds) Required to Calculate 0.5178828239440918
+Calculating Shortest path using BF for New York, New York, USA for route 3
+Distance of Shortest Path 27216.387
+Total Time (seconds) Required to Calculate 19.775250911712646
+Calculating Shortest path using A* for New York, New York, USA for route 3
+Distance of Shortest Path 27216.387
+Total Time (seconds) Required to Calculate 1.2409725189208984
+Calculating Shortest path using Djikstra Simple for New York, New York, USA for route 3
+Distance of Shortest Path 27216.387
+Total Time (seconds) Required to Calculate 698.652107000351
+Calculating Shortest path using Djikstra HeapQ for New York, New York, USA for route 3
+Distance of Shortest Path 27216.387
+Total Time (seconds) Required to Calculate 1.0820176601409912
+Calculating Shortest path using no-break Djikstra Simple for New York, New York, USA for route 3
+Distance of Shortest Path 27216.387
+Total Time (seconds) Required to Calculate 807.0998837947845
+Calculating Shortest path using no-break Djikstra HeapQ for New York, New York, USA for route 3
+Distance of Shortest Path 27216.387
+Total Time (seconds) Required to Calculate 1.898813247680664
+
+********************* Graph Details ****************************
+Test for Los Angeles, CA, USA
+Total Number of Nodes 50141
+Total Number of Edges 137738
+
+
+Calculate shortest path using default OSM Shortest Path on Los Angeles, CA, USA for route 0
+Distance of Shortest Path 59725.35800000004
+Total Time (seconds) Required to Calculate 0.5703692436218262
+Calculating Shortest path using BF for Los Angeles, CA, USA for route 0
+Distance of Shortest Path 59725.35800000004
+Total Time (seconds) Required to Calculate 35.675079345703125
+Calculating Shortest path using A* for Los Angeles, CA, USA for route 0
+Distance of Shortest Path 59725.35800000004
+Total Time (seconds) Required to Calculate 1.090646743774414
+Calculating Shortest path using Djikstra Simple for Los Angeles, CA, USA for route 0
+Distance of Shortest Path 59725.35800000004
+Total Time (seconds) Required to Calculate 602.9589405059814
+Calculating Shortest path using Djikstra HeapQ for Los Angeles, CA, USA for route 0
+Distance of Shortest Path 59725.35800000004
+Total Time (seconds) Required to Calculate 1.2117464542388916
+Calculating Shortest path using no-break Djikstra Simple for Los Angeles, CA, USA for route 0
+Distance of Shortest Path 59725.35800000004
+Total Time (seconds) Required to Calculate 658.707731962204
+Calculating Shortest path using no-break Djikstra HeapQ for Los Angeles, CA, USA for route 0
+Distance of Shortest Path 59725.35800000004
+Total Time (seconds) Required to Calculate 1.0448572635650635
+
+Calculate shortest path using default OSM Shortest Path on Los Angeles, CA, USA for route 1
+Distance of Shortest Path 40856.63800000001
+Total Time (seconds) Required to Calculate 0.5710139274597168
+Calculating Shortest path using BF for Los Angeles, CA, USA for route 1
+Distance of Shortest Path 40856.63800000001
+Total Time (seconds) Required to Calculate 13.23227047920227
+Calculating Shortest path using A* for Los Angeles, CA, USA for route 1
+Distance of Shortest Path 40856.63800000001
+Total Time (seconds) Required to Calculate 1.1863820552825928
+Calculating Shortest path using Djikstra Simple for Los Angeles, CA, USA for route 1
+Distance of Shortest Path 40856.63800000001
+Total Time (seconds) Required to Calculate 644.4495892524719
+Calculating Shortest path using Djikstra HeapQ for Los Angeles, CA, USA for route 1
+Distance of Shortest Path 40856.63800000001
+Total Time (seconds) Required to Calculate 2.483489751815796
+Calculating Shortest path using no-break Djikstra Simple for Los Angeles, CA, USA for route 1
+Distance of Shortest Path 40856.63800000001
+Total Time (seconds) Required to Calculate 722.8119065761566
+Calculating Shortest path using no-break Djikstra HeapQ for Los Angeles, CA, USA for route 1
+Distance of Shortest Path 40856.63800000001
+Total Time (seconds) Required to Calculate 1.4080438613891602
+
+Calculate shortest path using default OSM Shortest Path on Los Angeles, CA, USA for route 2
+Distance of Shortest Path 58929.464999999975
+Total Time (seconds) Required to Calculate 0.575376033782959
+Calculating Shortest path using BF for Los Angeles, CA, USA for route 2
+Distance of Shortest Path 58929.464999999975
+Total Time (seconds) Required to Calculate 16.47552466392517
+Calculating Shortest path using A* for Los Angeles, CA, USA for route 2
+Distance of Shortest Path 58929.464999999975
+Total Time (seconds) Required to Calculate 1.2466230392456055
+Calculating Shortest path using Djikstra Simple for Los Angeles, CA, USA for route 2
+Distance of Shortest Path 58929.464999999975
+Total Time (seconds) Required to Calculate 691.7709624767303
+Calculating Shortest path using Djikstra HeapQ for Los Angeles, CA, USA for route 2
+Distance of Shortest Path 58929.464999999975
+Total Time (seconds) Required to Calculate 1.1759145259857178
+Calculating Shortest path using no-break Djikstra Simple for Los Angeles, CA, USA for route 2
+Distance of Shortest Path 58929.464999999975
+Total Time (seconds) Required to Calculate 718.9448084831238
+Calculating Shortest path using no-break Djikstra HeapQ for Los Angeles, CA, USA for route 2
+Distance of Shortest Path 58929.464999999975
+Total Time (seconds) Required to Calculate 1.0165116786956787
+
+Calculate shortest path using default OSM Shortest Path on Los Angeles, CA, USA for route 3
+Distance of Shortest Path 41065.93100000001
+Total Time (seconds) Required to Calculate 0.5667903423309326
+Calculating Shortest path using BF for Los Angeles, CA, USA for route 3
+Distance of Shortest Path 41065.93100000001
+Total Time (seconds) Required to Calculate 20.61626172065735
+Calculating Shortest path using A* for Los Angeles, CA, USA for route 3
+Distance of Shortest Path 41065.93100000001
+Total Time (seconds) Required to Calculate 1.1090056896209717
+Calculating Shortest path using Djikstra Simple for Los Angeles, CA, USA for route 3
+Distance of Shortest Path 41065.93100000001
+Total Time (seconds) Required to Calculate 608.196524143219
+Calculating Shortest path using Djikstra HeapQ for Los Angeles, CA, USA for route 3
+Distance of Shortest Path 41065.93100000001
+Total Time (seconds) Required to Calculate 1.0128114223480225
+Calculating Shortest path using no-break Djikstra Simple for Los Angeles, CA, USA for route 3
+Distance of Shortest Path 41065.93100000001
+Total Time (seconds) Required to Calculate 638.559157371521
+Calculating Shortest path using no-break Djikstra HeapQ for Los Angeles, CA, USA for route 3
+Distance of Shortest Path 41065.93100000001
+Total Time (seconds) Required to Calculate 1.054513931274414
+
+********************* Graph Details ****************************
+Test for Houston, TX, USA
+Total Number of Nodes 59619
+Total Number of Edges 149258
+
+
+Calculate shortest path using default OSM Shortest Path on Houston, TX, USA for route 0
+Distance of Shortest Path 61807.471000000085
+Total Time (seconds) Required to Calculate 0.6779406070709229
+Calculating Shortest path using BF for Houston, TX, USA for route 0
+Distance of Shortest Path 61807.471000000085
+Total Time (seconds) Required to Calculate 32.73928093910217
+Calculating Shortest path using A* for Houston, TX, USA for route 0
+Distance of Shortest Path 61807.471000000085
+Total Time (seconds) Required to Calculate 1.419679880142212
+Calculating Shortest path using Djikstra Simple for Houston, TX, USA for route 0
+Distance of Shortest Path 61807.471000000085
+Total Time (seconds) Required to Calculate 1005.1612889766693
+Calculating Shortest path using Djikstra HeapQ for Houston, TX, USA for route 0
+Distance of Shortest Path 61807.471000000085
+Total Time (seconds) Required to Calculate 1.7849316596984863
+Calculating Shortest path using no-break Djikstra Simple for Houston, TX, USA for route 0
+Distance of Shortest Path 61807.471000000085
+Total Time (seconds) Required to Calculate 1152.6249566078186
+Calculating Shortest path using no-break Djikstra HeapQ for Houston, TX, USA for route 0
+Distance of Shortest Path 61807.471000000085
+Total Time (seconds) Required to Calculate 2.110140085220337
+
+Calculate shortest path using default OSM Shortest Path on Houston, TX, USA for route 1
+Distance of Shortest Path 41398.225000000035
+Total Time (seconds) Required to Calculate 1.0826125144958496
+Calculating Shortest path using BF for Houston, TX, USA for route 1
+Distance of Shortest Path 41398.225000000035
+Total Time (seconds) Required to Calculate 16.042844533920288
+Calculating Shortest path using A* for Houston, TX, USA for route 1
+Distance of Shortest Path 41398.225000000035
+Total Time (seconds) Required to Calculate 1.7344489097595215
+Calculating Shortest path using Djikstra Simple for Houston, TX, USA for route 1
+Distance of Shortest Path 41398.225000000035
+Total Time (seconds) Required to Calculate 1015.1452484130859
+Calculating Shortest path using Djikstra HeapQ for Houston, TX, USA for route 1
+Distance of Shortest Path 41398.225000000035
+Total Time (seconds) Required to Calculate 1.5993034839630127
+Calculating Shortest path using no-break Djikstra Simple for Houston, TX, USA for route 1
+Distance of Shortest Path 41398.225000000035
+Total Time (seconds) Required to Calculate 1120.2152135372162
+Calculating Shortest path using no-break Djikstra HeapQ for Houston, TX, USA for route 1
+Distance of Shortest Path 41398.225000000035
+Total Time (seconds) Required to Calculate 2.493422269821167
+
+Calculate shortest path using default OSM Shortest Path on Houston, TX, USA for route 2
+Distance of Shortest Path 36514.80599999999
+Total Time (seconds) Required to Calculate 0.5905587673187256
+Calculating Shortest path using BF for Houston, TX, USA for route 2
+Distance of Shortest Path 36514.80599999999
+Total Time (seconds) Required to Calculate 33.01124906539917
+Calculating Shortest path using A* for Houston, TX, USA for route 2
+Distance of Shortest Path 36514.80599999999
+Total Time (seconds) Required to Calculate 3.551515817642212
+Calculating Shortest path using Djikstra Simple for Houston, TX, USA for route 2
+Distance of Shortest Path 36514.80599999999
+Total Time (seconds) Required to Calculate 929.6173951625824
+Calculating Shortest path using Djikstra HeapQ for Houston, TX, USA for route 2
+Distance of Shortest Path 36514.80599999999
+Total Time (seconds) Required to Calculate 1.619872808456421
+Calculating Shortest path using no-break Djikstra Simple for Houston, TX, USA for route 2
+Distance of Shortest Path 36514.80599999999
+Total Time (seconds) Required to Calculate 1141.6768674850464
+Calculating Shortest path using no-break Djikstra HeapQ for Houston, TX, USA for route 2
+Distance of Shortest Path 36514.80599999999
+Total Time (seconds) Required to Calculate 1.6964085102081299
+
+Calculate shortest path using default OSM Shortest Path on Houston, TX, USA for route 3

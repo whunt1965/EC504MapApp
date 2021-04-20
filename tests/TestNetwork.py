@@ -19,6 +19,7 @@ from os import path
 # results -> City -> coordinates
 #                 -> path : (list 0:len) -> info
 #                                        -> correct -> osm route
+#                                        -> correct_distance -> osm route distance
 #                                        -> Algo : (BF/Astar/Dijkstra 4 types) -> route
 #                                                                              -> direction
 #                                                                              -> sum
@@ -27,8 +28,9 @@ from os import path
 
 def main(results, option, csv_filename):
     # Creating paths
-    print("********************* Graph Details ****************************")
+
     for key, value in results.items():  # Iterate through different cities
+        print("\n********************* Graph Details ****************************")
         results[key]["paths"] = {}  # Initialize route list for this city
         route_count = 0
         if option == 1:
@@ -73,7 +75,7 @@ def main(results, option, csv_filename):
                 route_count += 1
 
     # Check Results
-    print("*********** Validation Against Built-In Shortest Path *********************")
+    print("\n*********** Validation Against Built-In Shortest Path *********************")
     Check_results(results)
     print()
 
@@ -89,7 +91,7 @@ def Run_Algo_on_route(City, route_id, results, total_edges, csv_filename="output
 
     csv_timing_list = []
 
-    print("Calculate shortest path using default OSM Shortest Path on " + str(City) + " for route " + str(route_id))
+    print("\nCalculate shortest path using default OSM Shortest Path on " + str(City) + " for route " + str(route_id))
     graph_proj = ox.project_graph(G)
     start = time.time()
     correct_route = nx.shortest_path(G=graph_proj, source=src, target=dest, weight='length')
@@ -98,6 +100,7 @@ def Run_Algo_on_route(City, route_id, results, total_edges, csv_filename="output
     print("Distance of Shortest Path " + str(correct_distance))
     print("Total Time (seconds) Required to Calculate", stop - start)
     results[City]["paths"][route_id]["correct"] = correct_route
+    results[City]["paths"][route_id]["correct_distance"] = correct_distance
 
     print("Calculating Shortest path using BF for " + str(City) + " for route " + str(route_id))
     start = time.time()
@@ -184,13 +187,16 @@ def Run_Algo_on_route(City, route_id, results, total_edges, csv_filename="output
 
 def Check_results(results):
     for City_i, content in results.items():  # goes through all the cities
-        print("City name: " + str(City_i))
+        print("\n Validating: " + str(City_i))
         for route_i in range(len(results[City_i]["paths"])):  # goes through different paths in same city
             print("route: " + str(route_i))
             correct_route = results[City_i]["paths"][route_i]["correct"]
+            correct_dist = results[City_i]["paths"][route_i]["correct_distance"]
             for key, value in results[City_i]["paths"][route_i]["Algo"].items():  # check algo for each route
                 if correct_route != results[City_i]["paths"][route_i]["Algo"][key]["route"]:
-                    print("Not same" + str(key))
+                    print("Not same " + str(key))
+                    print("Algo Distance: " + str(results[City_i]["paths"][route_i]["Algo"][key]["sum"]))
+                    print("Correct Distance: " + str(correct_dist))
                     print("Algo route", results[City_i]["paths"][route_i]["Algo"][key]["route"])
                     print("correct route", correct_route)
                 else:

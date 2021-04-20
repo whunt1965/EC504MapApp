@@ -1,6 +1,7 @@
 import itertools
 from TestNetwork import main
 
+num_cities = 3
 option = 2
 csv_filename = "consolidated.csv"
 
@@ -21,7 +22,7 @@ sparse_cities = {
                                                 (44.415837, -72.676139), (44.514078, -72.692889)]}
 }
 
-results = dict(itertools.islice(sparse_cities.items(), option))
+results = dict(itertools.islice(sparse_cities.items(), num_cities))
 main(results, option, csv_filename)
 
 medium_cities = {
@@ -41,7 +42,7 @@ medium_cities = {
                                                 (35.988773, -86.638339), (36.188531, -86.584781)]}
 }
 
-results = dict(itertools.islice(medium_cities.items(), option))
+results = dict(itertools.islice(medium_cities.items(), num_cities))
 main(results, option, csv_filename)
 
 dense_cities = {
@@ -61,6 +62,6 @@ dense_cities = {
                                                 (30.071428, -95.175107), (29.951238, -95.393520)]}
 }
 
-results = dict(itertools.islice(dense_cities.items(), option))
+results = dict(itertools.islice(dense_cities.items(), num_cities))
 main(results, option, csv_filename)
 
