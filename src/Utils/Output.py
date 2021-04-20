@@ -4,7 +4,7 @@ import os
 # Create new HTML file, insert link to saved plot, 
 # add other relevant information
 
-def giveOutput(src, dst, directions, city, distance):
+def giveOutput(src, dst, directions, city, distance, total_time, algo_name):
     f = open('output.html','w')
     message = """
     <!DOCTYPE html>
@@ -34,9 +34,11 @@ def giveOutput(src, dst, directions, city, distance):
     header = "<h2>"
     endheader = "</h2>"
     locationInfo = header + "Source: " + str(src) + endheader + header + "Destination: " + str(dst) + endheader
-    totalDistance = header + "Total Distance: " + str(round(distance, 1)) + endheader
+    totalDistance = header + "Total Distance: " + str(round(distance, 1)) + " meters" + endheader
+    algoInfo = header + "Route calculated in " + str(round(total_time, 1)) + " seconds using " + algo_name + endheader
     f.write(locationInfo)
     f.write(totalDistance)
+    f.write(algoInfo)
     
     image="""
     </div>

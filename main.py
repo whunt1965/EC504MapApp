@@ -1,9 +1,9 @@
 from src.Utils import Parse
-from src.Algos import BF, Dijkstra
+from src.Algos import BF, Dijkstra, AStar
 from src.Utils import Output
-from src.Algos import AStar
 import osmnx as ox
 import networkx as nx
+import time
 
 
 citySelection = {
@@ -91,18 +91,28 @@ def calculateRoutes(source, destination, city, algoNum):
 
     if G is None:
         print("Unable to build graph from inputs")
-        exit(0)
+        exit(1)
+
+    if not nx.algorithms.shortest_paths.generic.has_path(G, src, dest):
+        print("There is no path between these two points in " + city)
+        exit(1)
 
     print("Calculating Routes...")
     if algoNum == 1:
+        start = time.time()
         route, directions, sum = BF.BF(Nodes, Map, src, dest)
+        stop = time.time()
     elif algoNum == 2:
+        start = time.time()
         route, directions, sum = Dijkstra.Dijkstra(Nodes, Map, src, dest)
+        stop = time.time()
     elif algoNum == 3:
+        start = time.time()
         route, directions, sum = AStar.AStar(Nodes, Map, src, dest)
+        stop = time.time()
 
-    # #Debug - remove for production
-    # print(sum)
+    total_time = stop -start
+
 
 
     nc = (0.976, 0.411, 0.411, 1.0)
@@ -110,7 +120,7 @@ def calculateRoutes(source, destination, city, algoNum):
     graph_proj = ox.project_graph(G)
     fig, ax = ox.plot_graph_route(graph_proj, route,node_color='w', node_size=0, edge_linewidth=0.5, route_color= nc, bgcolor = background, show= False, save=True, filepath="map.png")
     #fig.savefig('pic.png')
-    Output.giveOutput(source, destination, directions, city, sum)
+    Output.giveOutput(source, destination, directions, city, sum, total_time, algorithms.get(algoNum))
 
 
 
