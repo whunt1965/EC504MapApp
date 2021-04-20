@@ -40,7 +40,7 @@ To test if X-forwarding works correctly:
 ```scc1% xclock&```
 
 #### Apple OS X
-Hold the <command> key down with your left hand and press the space bar with your right hand; type “XQuartz” followed by the key. If nothing comes up, you must first install the XQuartz/X11 application, which is available at http://xquartz.macosforge.org/landing/
+First install the XQuartz/X11 application, which is available at http://xquartz.macosforge.org/landing/, it may already be installed. 
 Once XQuartz is intalled, connect to the SCC using:
 ```your_local_machine% ssh –Y yourBULoginName@scc1.bu.edu```
 To test if X-forwarding works correctly:
@@ -54,8 +54,7 @@ To test if X-forwarding works correctly:
 
 ### Setup Miniconda Environment
 ```Linux
-module load miniconda
-conda create --name=ox --file=requirements.txt
+./buildEnv.sh
 ```
 
 ### To Run
