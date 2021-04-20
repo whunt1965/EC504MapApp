@@ -21,9 +21,12 @@ conda activate <env>
 python main.py
 ```
 ### Sample Inputs
-```Boston, MA, USA
-Src:42.383807, -71.116494, 
-Dst: 42.253763, -71.017757
+```
+Boston, MA, USA
+Src Lat:42.383807
+Src Long: -71.116494, 
+Dst Lat: 42.253763
+Dst Long: -71.017757
 ```
 
 
