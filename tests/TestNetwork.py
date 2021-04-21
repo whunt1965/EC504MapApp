@@ -40,8 +40,7 @@ def main(results, option, csv_filename):
                     y1 = results[key]["coordinates"][i][1]
                     x2 = results[key]["coordinates"][j][0]
                     y2 = results[key]["coordinates"][j][1]
-                    City_name = str(key.split(",")[0])
-                    G, Nodes, Map, src, dest = Parse.buildGraph(x1, y1, x2, y2, City_name)
+                    G, Nodes, Map, src, dest = Parse.buildGraph(x1, y1, x2, y2, key)
                     if route_count == 0:
                         # Print Graph Details
                         print("Test for " + key)
@@ -60,8 +59,7 @@ def main(results, option, csv_filename):
                 y1 = results[key]["coordinates"][i-1][1]
                 x2 = results[key]["coordinates"][i][0]
                 y2 = results[key]["coordinates"][i][1]
-                City_name = str(key.split(",")[0])
-                G, Nodes, Map, src, dest = Parse.buildGraph(x1, y1, x2, y2, City_name)
+                G, Nodes, Map, src, dest = Parse.buildGraph(x1, y1, x2, y2, key)
                 if route_count == 0:
                     # Print Graph Details
                     print("Test for " + key)

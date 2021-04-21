@@ -1,7 +1,7 @@
 # Graph Parsing -- break graph into nodes and edges
 import osmnx as ox
+import os
 from os import path
-
 from src.Objects.Node import Node
 from src.Objects.Edge import Edge
 
@@ -24,8 +24,10 @@ def getDest(Graph, lat, long):
 
 # @param<location> A city name of the form 'Boston, MA, USA' which includes the start and end locations
 def buildGraph(startlat, startlong, endlat, endlong, location):
-    City =location.split(",")
-    filePath = "./maps/" + str(City[0]) + ".graphml"
+    City = location.split(",")
+    name = "/maps/" + str(City[0]) + ".graphml"
+    filePath = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))) + name
+
 
     # Retrieve Graph from disk if it exists. Otherwise, load from Overpass API and save for later usage
     if path.exists(filePath):
@@ -34,6 +36,7 @@ def buildGraph(startlat, startlong, endlat, endlong, location):
         try:
             G = ox.graph_from_place(location, network_type="drive")
         except:
+            print("failed to create graph")
             return None, None, None, None, None
         ox.save_graphml(G, filePath)
 

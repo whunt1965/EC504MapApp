@@ -81,7 +81,7 @@ def algoSelection():
             continue
 
 
-def calculateRoutes(source, destination, city, algoNum):
+def calculateRoutes(source, destination, city, algoNum, output_name = "output"):
 
 
     #42.383807, -71.116494, 42.253763, -71.017757
@@ -118,16 +118,28 @@ def calculateRoutes(source, destination, city, algoNum):
     nc = (0.976, 0.411, 0.411, 1.0)
     background=(1.0,1.0,1.0,0.0)
     graph_proj = ox.project_graph(G)
-    fig, ax = ox.plot_graph_route(graph_proj, route,node_color='w', node_size=0, edge_linewidth=0.5, route_color= nc, bgcolor = background, show= False, save=True, filepath="map.png")
-    #fig.savefig('pic.png')
-    Output.giveOutput(source, destination, directions, city, sum, total_time, algorithms.get(algoNum))
 
+    if output_name == "output": # main.py
+        fig, ax = ox.plot_graph_route(graph_proj, route,node_color='w', node_size=0, edge_linewidth=0.5, route_color= nc, bgcolor = background, show= False, save=True, filepath="map.png")
+        #fig.savefig('pic.png')
+        Output.giveOutput(source, destination, directions, city, sum, total_time, algorithms.get(algoNum))
+    else:
+        map_name = "outputs/" + str(output_name.split(".")[0]) + "_map.png"
+        fig, ax = ox.plot_graph_route(graph_proj, route, node_color='w', node_size=0, edge_linewidth=0.5,
+                                      route_color=nc, bgcolor=background, show=False, save=True, filepath=map_name)
+        # fig.savefig('pic.png')
+        Output.giveOutput(source, destination, directions, city, sum, total_time, algorithms.get(algoNum), output_name)
 
-
+def test():
+    city = 'Bath, ME, USA'
+    points = [(43.901587, -69.816278), (43.916612, -69.832510)]
+    algoNum = 3
+    src = str(points[0])
+    dst = str(points[1])
+    calculateRoutes(points[0], points[1], city, algoNum)
 
 if __name__ == '__main__':
-
-    while True: 
+    while True:
         city = inputCity()
         print("----------------")
         points = srcDest()
@@ -136,17 +148,17 @@ if __name__ == '__main__':
         print("----------------")
         src = str(points[0])
         dst = str(points[1])
-    
+
         print("Travelling from " + src + " to " + dst + " in " + city + " using " + algorithms[algoNum])
         correct = input ("Correct?  [Y/N]: ")
         print("----------------")
-    
+
         if correct == 'Y' or correct == 'y':
             calculateRoutes(points[0], points[1], city, algoNum)
             break
         else:
             continue
-    
+
 
 
 

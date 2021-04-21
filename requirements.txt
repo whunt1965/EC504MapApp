@@ -1,6 +1,3 @@
-# This file may be used to create an environment using:
-# $ conda create --name <env> --file <this file>
-# platform: osx-64
 attrs=20.3.0=pyhd3deb0d_0
 boost-cpp=1.74.0=h43a636a_2
 branca=0.4.2=pyhd8ed1ab_0
