@@ -133,8 +133,9 @@ dmypy.json
 cache/
 test2.py
 .DS_Store
-map.png
-output.html
+/map.png
+/output.html
 pic.png
+maps/
 
 
