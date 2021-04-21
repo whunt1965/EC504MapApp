@@ -4033,7 +4033,7 @@
     </edge>
     <edge source="99060289" target="99080364" id="0">
       <data key="d8">[11119048, 11115587]</data>
-      <data key="d9">['Alberta Street', 'Seminole Street']</data>
+      <data key="d9">['Seminole Street', 'Alberta Street']</data>
       <data key="d10">residential</data>
       <data key="d11">False</data>
       <data key="d12">169.57299999999998</data>
@@ -4145,7 +4145,7 @@
     <edge source="99072770" target="3436229016" id="0">
       <data key="d8">[78603588, 744494750]</data>
       <data key="d15">['4', '2']</data>
-      <data key="d9">['Bertha Street', 'South Roosevelt Boulevard']</data>
+      <data key="d9">['South Roosevelt Boulevard', 'Bertha Street']</data>
       <data key="d10">secondary</data>
       <data key="d16">30 mph</data>
       <data key="d11">False</data>
@@ -5421,7 +5421,7 @@
     <edge source="99075889" target="99083293" id="0">
       <data key="d8">[78604292, 78604071]</data>
       <data key="d9">['Virginia Street', 'Jose Marti Drive']</data>
-      <data key="d10">['residential', 'unclassified']</data>
+      <data key="d10">['unclassified', 'residential']</data>
       <data key="d16">15 mph</data>
       <data key="d11">False</data>
       <data key="d12">152.902</data>
@@ -5470,7 +5470,7 @@
     <edge source="99075894" target="99075891" id="0">
       <data key="d8">[78604289, 78604290]</data>
       <data key="d9">Virginia Street</data>
-      <data key="d10">['residential', 'unclassified']</data>
+      <data key="d10">['unclassified', 'residential']</data>
       <data key="d11">False</data>
       <data key="d12">114.217</data>
       <data key="d16">15 mph</data>
@@ -7568,7 +7568,7 @@
     </edge>
     <edge source="99078425" target="99083887" id="0">
       <data key="d8">[79250677, 83634397]</data>
-      <data key="d9">['Caroline Street', 'Front Street']</data>
+      <data key="d9">['Front Street', 'Caroline Street']</data>
       <data key="d10">residential</data>
       <data key="d11">False</data>
       <data key="d12">192.113</data>
@@ -8357,7 +8357,7 @@
     </edge>
     <edge source="99080364" target="99060289" id="0">
       <data key="d8">[11119048, 11115587]</data>
-      <data key="d9">['Alberta Street', 'Seminole Street']</data>
+      <data key="d9">['Seminole Street', 'Alberta Street']</data>
       <data key="d10">residential</data>
       <data key="d11">False</data>
       <data key="d12">169.57299999999998</data>
@@ -9319,7 +9319,7 @@
     </edge>
     <edge source="99082976" target="99083293" id="0">
       <data key="d8">[78591281, 754833027, 754833028, 128504326]</data>
-      <data key="d15">['4', '3']</data>
+      <data key="d15">['3', '4']</data>
       <data key="d18">US 1</data>
       <data key="d9">North Roosevelt Boulevard</data>
       <data key="d10">primary</data>
@@ -9518,7 +9518,7 @@
     </edge>
     <edge source="99083293" target="99082976" id="0">
       <data key="d8">[78591281, 754833027, 754833028, 128504326]</data>
-      <data key="d15">['4', '3']</data>
+      <data key="d15">['3', '4']</data>
       <data key="d18">US 1</data>
       <data key="d9">North Roosevelt Boulevard</data>
       <data key="d10">primary</data>
@@ -9554,7 +9554,7 @@
     </edge>
     <edge source="99083887" target="99078425" id="0">
       <data key="d8">[83634397, 79250677]</data>
-      <data key="d9">['Caroline Street', 'Front Street']</data>
+      <data key="d9">['Front Street', 'Caroline Street']</data>
       <data key="d10">residential</data>
       <data key="d11">False</data>
       <data key="d12">192.113</data>
@@ -12970,7 +12970,7 @@
     </edge>
     <edge source="99093872" target="2487081819" id="0">
       <data key="d8">[79245870, 11119791]</data>
-      <data key="d9">['Elizabeth Street', 'Greene Street']</data>
+      <data key="d9">['Greene Street', 'Elizabeth Street']</data>
       <data key="d10">residential</data>
       <data key="d11">False</data>
       <data key="d12">165.017</data>
@@ -14185,7 +14185,7 @@
       <data key="d18">US 1</data>
       <data key="d9">Truman Avenue</data>
       <data key="d10">primary</data>
-      <data key="d16">['25 mph', '15 mph']</data>
+      <data key="d16">['15 mph', '25 mph']</data>
       <data key="d11">False</data>
       <data key="d12">81.20400000000001</data>
       <data key="d13">LINESTRING (-81.7979514 24.5519347, -81.79800640000001 24.5519001, -81.79848440000001 24.5515963, -81.7986099 24.5515169)</data>
@@ -14493,7 +14493,7 @@
     </edge>
     <edge source="99099076" target="99102611" id="0">
       <data key="d8">[11123691, 11122532]</data>
-      <data key="d9">['Gonzalez Lane', 'Angela Street']</data>
+      <data key="d9">['Angela Street', 'Gonzalez Lane']</data>
       <data key="d10">residential</data>
       <data key="d11">False</data>
       <data key="d12">108.941</data>
@@ -15090,7 +15090,7 @@
       <data key="d18">US 1</data>
       <data key="d9">Truman Avenue</data>
       <data key="d10">primary</data>
-      <data key="d16">['25 mph', '15 mph']</data>
+      <data key="d16">['15 mph', '25 mph']</data>
       <data key="d11">False</data>
       <data key="d12">81.204</data>
       <data key="d13">LINESTRING (-81.7986099 24.5515169, -81.79848440000001 24.5515963, -81.79800640000001 24.5519001, -81.7979514 24.5519347)</data>
@@ -15111,7 +15111,7 @@
     </edge>
     <edge source="99102611" target="99099076" id="0">
       <data key="d8">[11123691, 11122532]</data>
-      <data key="d9">['Gonzalez Lane', 'Angela Street']</data>
+      <data key="d9">['Angela Street', 'Gonzalez Lane']</data>
       <data key="d10">residential</data>
       <data key="d11">False</data>
       <data key="d12">108.941</data>
@@ -15636,7 +15636,7 @@
     <edge source="921680545" target="3436039241" id="0">
       <data key="d8">[744502723, 494928350]</data>
       <data key="d9">['Kennedy Drive', 'Sigsbee Road']</data>
-      <data key="d10">['residential', 'secondary']</data>
+      <data key="d10">['secondary', 'residential']</data>
       <data key="d11">False</data>
       <data key="d12">184.10600000000002</data>
       <data key="d15">4</data>
@@ -15792,7 +15792,7 @@
     </edge>
     <edge source="922081764" target="922140617" id="0">
       <data key="d8">[86282848, 11121979, 11118891]</data>
-      <data key="d9">['Juanita Lane', '4th Street', '5th Street']</data>
+      <data key="d9">['4th Street', '5th Street', 'Juanita Lane']</data>
       <data key="d10">residential</data>
       <data key="d11">False</data>
       <data key="d12">504.011</data>
@@ -15815,7 +15815,7 @@
     </edge>
     <edge source="922140617" target="922081764" id="0">
       <data key="d8">[86282848, 11118891, 11121979]</data>
-      <data key="d9">['Juanita Lane', '4th Street', '5th Street']</data>
+      <data key="d9">['4th Street', '5th Street', 'Juanita Lane']</data>
       <data key="d10">residential</data>
       <data key="d11">False</data>
       <data key="d12">504.01099999999997</data>
@@ -15890,7 +15890,7 @@
     </edge>
     <edge source="922140746" target="99091880" id="0">
       <data key="d8">[78595796, 11120798]</data>
-      <data key="d9">['Venetia Street', 'Duncombe Street']</data>
+      <data key="d9">['Duncombe Street', 'Venetia Street']</data>
       <data key="d10">residential</data>
       <data key="d11">False</data>
       <data key="d12">177.854</data>
@@ -16913,7 +16913,7 @@
     </edge>
     <edge source="2487081819" target="99093872" id="0">
       <data key="d8">[79245870, 11119791]</data>
-      <data key="d9">['Elizabeth Street', 'Greene Street']</data>
+      <data key="d9">['Greene Street', 'Elizabeth Street']</data>
       <data key="d10">residential</data>
       <data key="d11">False</data>
       <data key="d12">165.01700000000002</data>
@@ -16982,7 +16982,7 @@
     <edge source="3239061935" target="5577506221" id="0">
       <data key="d8">[11118794, 79239659]</data>
       <data key="d11">True</data>
-      <data key="d9">['Fort Street', 'Geraldine Street']</data>
+      <data key="d9">['Geraldine Street', 'Fort Street']</data>
       <data key="d10">residential</data>
       <data key="d12">110.189</data>
       <data key="d13">LINESTRING (-81.8051071 24.5507013, -81.8051576 24.550766, -81.80433549999999 24.5512874)</data>
@@ -18474,7 +18474,7 @@
     </edge>
     <edge source="3432507499" target="3432507502" id="0">
       <data key="d8">[336173035, 336117686]</data>
-      <data key="d9">['19th Street', 'Sunrise Drive']</data>
+      <data key="d9">['Sunrise Drive', '19th Street']</data>
       <data key="d10">residential</data>
       <data key="d11">False</data>
       <data key="d12">113.193</data>
@@ -18505,7 +18505,7 @@
     </edge>
     <edge source="3432507502" target="3432507499" id="0">
       <data key="d8">[336173035, 336117686]</data>
-      <data key="d9">['19th Street', 'Sunrise Drive']</data>
+      <data key="d9">['Sunrise Drive', '19th Street']</data>
       <data key="d10">residential</data>
       <data key="d11">False</data>
       <data key="d12">113.19300000000001</data>
@@ -19868,8 +19868,8 @@
     <edge source="3436039241" target="921680545" id="0">
       <data key="d8">[744502723, 494928350]</data>
       <data key="d15">4</data>
-      <data key="d9">['Sigsbee Road', 'Kennedy Drive']</data>
-      <data key="d10">['residential', 'secondary']</data>
+      <data key="d9">['Kennedy Drive', 'Sigsbee Road']</data>
+      <data key="d10">['secondary', 'residential']</data>
       <data key="d11">False</data>
       <data key="d12">184.106</data>
       <data key="d13">LINESTRING (-81.76934660000001 24.5679938, -81.7693814 24.5680226, -81.769423 24.5680655, -81.7696912 24.568342, -81.7697332 24.5683852, -81.7705548 24.569232)</data>
@@ -20136,7 +20136,7 @@
       <data key="d8">[78603588, 744494750]</data>
       <data key="d15">['4', '2']</data>
       <data key="d18">FL A1A</data>
-      <data key="d9">['Bertha Street', 'South Roosevelt Boulevard']</data>
+      <data key="d9">['South Roosevelt Boulevard', 'Bertha Street']</data>
       <data key="d10">secondary</data>
       <data key="d11">False</data>
       <data key="d12">2324.2740000000003</data>
@@ -20623,7 +20623,7 @@
     </edge>
     <edge source="3440116535" target="4867178702" id="0">
       <data key="d8">[336122985, 754833019, 336925901, 744494734]</data>
-      <data key="d15">['5', '6', '4']</data>
+      <data key="d15">['5', '4', '6']</data>
       <data key="d18">US 1</data>
       <data key="d9">North Roosevelt Boulevard</data>
       <data key="d10">primary</data>
@@ -21361,7 +21361,7 @@
     </edge>
     <edge source="4867178702" target="3440116535" id="0">
       <data key="d8">[336122985, 754833019, 336925901, 744494734]</data>
-      <data key="d15">['6', '5', '4']</data>
+      <data key="d15">['6', '4', '5']</data>
       <data key="d18">US 1</data>
       <data key="d9">North Roosevelt Boulevard</data>
       <data key="d10">primary</data>
@@ -21655,7 +21655,7 @@
     </edge>
     <edge source="5577506219" target="4868581524" id="0">
       <data key="d8">[583386505, 317625755, 495069015]</data>
-      <data key="d10">['residential', 'unclassified']</data>
+      <data key="d10">['unclassified', 'residential']</data>
       <data key="d11">False</data>
       <data key="d12">120.706</data>
       <data key="d13">LINESTRING (-81.8051485 24.5505647, -81.8055157 24.5503082, -81.80589519999999 24.550098, -81.80593570000001 24.5500677, -81.805891 24.5500109, -81.8057998 24.5498948)</data>
@@ -21677,7 +21677,7 @@
     <edge source="5577506345" target="99086652" id="0">
       <data key="d8">[583386512, 79258385]</data>
       <data key="d15">1</data>
-      <data key="d10">['living_street', 'residential']</data>
+      <data key="d10">['residential', 'living_street']</data>
       <data key="d11">False</data>
       <data key="d12">86.416</data>
       <data key="d9">Southard Street</data>
@@ -21780,7 +21780,7 @@
       <data key="d10">residential</data>
       <data key="d12">6.698</data>
     </edge>
-    <data key="d0">2021-04-20 20:10:23</data>
+    <data key="d0">2021-04-21 09:00:36</data>
     <data key="d1">OSMnx 1.0.1</data>
     <data key="d2">epsg:4326</data>
     <data key="d3">True</data>

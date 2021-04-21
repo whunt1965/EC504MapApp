@@ -15,10 +15,10 @@ Make sure to download and [install](https://docs.conda.io/en/latest/miniconda.ht
 ### Setup Miniconda Environment
 `./buildEnv.sh`
 
-### To Run
+### To Run (tested for MacOS - Windows users may need to update commands)
 ```Linux
 conda activate ox
-python main.py
+./runAppLocal
 ```
 ### Sample Inputs
 ```
@@ -59,7 +59,7 @@ To test if X-forwarding works correctly:
 
 ### To Run
 ```Linux
-./runApp.sh
+./runAppSCC.sh
 ```
 
 ### Sample Inputs
