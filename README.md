@@ -48,7 +48,8 @@ Once XQuartz is intalled, connect to the SCC using:
 your_local_machine% ssh –Y yourBULoginName@scc1.bu.edu
 ```
 To test if X-forwarding works correctly:
-```Linuxscc1% xclock&
+```Linux
+scc1% xclock&
 ```
 #### Linux
 
