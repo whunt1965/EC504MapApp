@@ -61,6 +61,10 @@ To test if X-forwarding works correctly:
 ```Linux
 scc1% xclock&
 ```
+### Navigate to SCC Directory
+```Linux
+cd /projectnb/ec504/whunt/Project/EC504MapApp
+```
 
 ### Setup Miniconda Environment
 ```Linux
